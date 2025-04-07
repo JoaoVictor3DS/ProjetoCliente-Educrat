@@ -14,10 +14,6 @@ import CourseSinglePage6 from "./pages/courseSingle/courses-single-6";
 import CourseCartPage from "./pages/cartPages/course-cart";
 import CourseCheckoutPage from "./pages/cartPages/course-checkout";
 import LessonSinglePage2 from "./pages/aboutCourses/lesson-single-2";
-import InstractorListPage1 from "./pages/aboutCourses/instructors-list-1";
-import InstractorListPage2 from "./pages/aboutCourses/instructors-list-2";
-import InstractorSinglePage from "./pages/aboutCourses/instructors";
-import InstractoBacomePage from "./pages/aboutCourses/instructor-become";
 import DashboardPage from "./pages/dashboard/dashboard";
 import DshbCoursesPage from "./pages/dashboard/dshb-courses";
 import DshbBookmarksPage from "./pages/dashboard/dshb-bookmarks";
@@ -92,25 +88,6 @@ function App() {
 							<Route
 								path="lesson-single-2"
 								element={<LessonSinglePage2 />}
-							/>
-
-							<Route
-								path="instructors-list-1"
-								element={<InstractorListPage1 />}
-							/>
-							<Route
-								path="instructors-list-2"
-								element={<InstractorListPage2 />}
-							/>
-
-							<Route
-								path="instructors/:id"
-								element={<InstractorSinglePage />}
-							/>
-
-							<Route
-								path="instructor-become"
-								element={<InstractoBacomePage />}
 							/>
 
 							<Route
