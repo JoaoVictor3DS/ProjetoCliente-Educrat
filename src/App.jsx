@@ -50,11 +50,6 @@ import BlogListpage3 from "./pages/blogs/blog-list-3";
 import BlogdetailsPage from "./pages/blogs/blogs";
 import AboutPage1 from "./pages/about/about-1";
 import ContactPage1 from "./pages/contacts/contact-1";
-import ShopCartPage from "./pages/cartPages/shop-cart";
-import ShopCheckoutPage from "./pages/cartPages/shop-checkout";
-import ShopListPage from "./pages/shop/shop-list";
-import ShopOrderPage from "./pages/shop/shop-order/page";
-import ShopdetailsPage from "./pages/shop/shop";
 import PricingPage from "./pages/others/pricing";
 import TermsPage from "./pages/others/terms";
 import HelpCenterPage from "./pages/others/help-center";
@@ -264,27 +259,6 @@ function App() {
 							<Route
 								path="contact-1"
 								element={<ContactPage1 />}
-							/>
-
-							<Route
-								path="shop-cart"
-								element={<ShopCartPage />}
-							/>
-							<Route
-								path="shop-checkout"
-								element={<ShopCheckoutPage />}
-							/>
-							<Route
-								path="shop-list"
-								element={<ShopListPage />}
-							/>
-							<Route
-								path="shop-order"
-								element={<ShopOrderPage />}
-							/>
-							<Route
-								path="shop/:id"
-								element={<ShopdetailsPage />}
 							/>
 
 							<Route path="pricing" element={<PricingPage />} />
