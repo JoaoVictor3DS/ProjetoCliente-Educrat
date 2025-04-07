@@ -9,14 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Context from "@/context/Context";
 import HomePage1 from "./pages";
-import CourseListPage1 from "./pages/coursesList/courses-list-1";
-import CourseListPage2 from "./pages/coursesList/courses-list-2";
-import CourseListPage3 from "./pages/coursesList/courses-list-3";
 import CourseListPage4 from "./pages/coursesList/courses-list-4";
-import CourseListPage5 from "./pages/coursesList/courses-list-5";
-import CourseListPage6 from "./pages/coursesList/courses-list-6";
-import CourseListPage7 from "./pages/coursesList/courses-list-7";
-import CourseListPage8 from "./pages/coursesList/courses-list-8";
 import CourseSinglePage1 from "./pages/courseSingle/courses";
 import CourseSinglePage2 from "./pages/courseSingle/courses-single-2";
 import CourseSinglePage3 from "./pages/courseSingle/courses-single-3";
@@ -92,32 +85,8 @@ function App() {
 							<Route index element={<HomePage1 />} />
 
 							<Route
-								path="courses-list-1"
-								element={<CourseListPage1 />}
-							/>
-							<Route
-								path="courses-list-3"
-								element={<CourseListPage3 />}
-							/>
-							<Route
 								path="courses-list-4"
 								element={<CourseListPage4 />}
-							/>
-							<Route
-								path="courses-list-5"
-								element={<CourseListPage5 />}
-							/>
-							<Route
-								path="courses-list-6"
-								element={<CourseListPage6 />}
-							/>
-							<Route
-								path="courses-list-7"
-								element={<CourseListPage7 />}
-							/>
-							<Route
-								path="courses-list-8"
-								element={<CourseListPage8 />}
 							/>
 
 							<Route
