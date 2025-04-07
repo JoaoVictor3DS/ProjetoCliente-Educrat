@@ -10,11 +10,7 @@ import { useEffect } from "react";
 import Context from "@/context/Context";
 import HomePage1 from "./pages";
 import CourseListPage4 from "./pages/coursesList/courses-list-4";
-import CourseSinglePage1 from "./pages/courseSingle/courses";
-import CourseSinglePage2 from "./pages/courseSingle/courses-single-2";
-import CourseSinglePage3 from "./pages/courseSingle/courses-single-3";
-import CourseSinglePage4 from "./pages/courseSingle/courses-single-4";
-import CourseSinglePage5 from "./pages/courseSingle/courses-single-5";
+import CourseSinglePage6 from "./pages/courseSingle/courses-single-6";
 import CourseCartPage from "./pages/cartPages/course-cart";
 import CourseCheckoutPage from "./pages/cartPages/course-checkout";
 import LessonSinglePage1 from "./pages/aboutCourses/lesson-single-1";
@@ -57,7 +53,6 @@ import LoginPage from "./pages/others/login";
 import SignupPage from "./pages/others/signup";
 import UIElementsPage from "./pages/others/ui-elements";
 import EventListPage2 from "./pages/events/event-list-2";
-import CourseSinglePage6 from "./pages/courseSingle/courses-single-6/page";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import NotFoundPage from "./pages/not-found";
 
@@ -84,26 +79,6 @@ function App() {
 								element={<CourseListPage4 />}
 							/>
 
-							<Route
-								path="courses/:id"
-								element={<CourseSinglePage1 />}
-							/>
-							<Route
-								path="courses-single-2/:id"
-								element={<CourseSinglePage2 />}
-							/>
-							<Route
-								path="courses-single-3/:id"
-								element={<CourseSinglePage3 />}
-							/>
-							<Route
-								path="courses-single-4/:id"
-								element={<CourseSinglePage4 />}
-							/>
-							<Route
-								path="courses-single-5/:id"
-								element={<CourseSinglePage5 />}
-							/>
 							<Route
 								path="courses-single-6/:id"
 								element={<CourseSinglePage6 />}
