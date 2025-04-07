@@ -13,7 +13,6 @@ import CourseListPage4 from "./pages/coursesList/courses-list-4";
 import CourseSinglePage6 from "./pages/courseSingle/courses-single-6";
 import CourseCartPage from "./pages/cartPages/course-cart";
 import CourseCheckoutPage from "./pages/cartPages/course-checkout";
-import LessonSinglePage1 from "./pages/aboutCourses/lesson-single-1";
 import LessonSinglePage2 from "./pages/aboutCourses/lesson-single-2";
 import InstractorListPage1 from "./pages/aboutCourses/instructors-list-1";
 import InstractorListPage2 from "./pages/aboutCourses/instructors-list-2";
@@ -36,12 +35,9 @@ import DshbMessagesPage from "./pages/dashboard/dshb-messages";
 import DshbPartcipentPage from "./pages/dashboard/dshb-participants";
 import DshbQuizPage from "./pages/dashboard/dshb-quiz";
 import DshbServeyPage from "./pages/dashboard/dshb-survey";
-import EventListPage1 from "./pages/events/event-list-1";
-import EventSingPage from "./pages/events/events";
+import EventListPage2 from "./pages/events/event-list-2";
 import EventCartPage from "./pages/cartPages/event-cart";
 import EventCheckoutPage from "./pages/cartPages/event-checkout";
-import BlogListpage1 from "./pages/blogs/blog-list-1";
-import BlogListpage2 from "./pages/blogs/blog-list-2";
 import BlogListpage3 from "./pages/blogs/blog-list-3";
 import BlogdetailsPage from "./pages/blogs/blogs";
 import AboutPage1 from "./pages/about/about-1";
@@ -52,7 +48,6 @@ import HelpCenterPage from "./pages/others/help-center";
 import LoginPage from "./pages/others/login";
 import SignupPage from "./pages/others/signup";
 import UIElementsPage from "./pages/others/ui-elements";
-import EventListPage2 from "./pages/events/event-list-2";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import NotFoundPage from "./pages/not-found";
 
@@ -94,10 +89,6 @@ function App() {
 							/>
 							{/* <Route path='courses-single-5/:id' element={<CourseSinglePage6 />} /> */}
 
-							<Route
-								path="lesson-single-1"
-								element={<LessonSinglePage1 />}
-							/>
 							<Route
 								path="lesson-single-2"
 								element={<LessonSinglePage2 />}
@@ -192,17 +183,10 @@ function App() {
 							/>
 
 							<Route
-								path="event-list-1"
-								element={<EventListPage1 />}
-							/>
-							<Route
 								path="event-list-2"
 								element={<EventListPage2 />}
 							/>
-							<Route
-								path="events/:id"
-								element={<EventSingPage />}
-							/>
+
 							<Route
 								path="event-cart"
 								element={<EventCartPage />}
@@ -212,14 +196,6 @@ function App() {
 								element={<EventCheckoutPage />}
 							/>
 
-							<Route
-								path="blog-list-1"
-								element={<BlogListpage1 />}
-							/>
-							<Route
-								path="blog-list-2"
-								element={<BlogListpage2 />}
-							/>
 							<Route
 								path="blog-list-3"
 								element={<BlogListpage3 />}
