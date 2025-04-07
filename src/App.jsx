@@ -9,15 +9,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Context from "@/context/Context";
 import HomePage1 from "./pages";
-import HomePage2 from "./pages/homes/home-2";
-import HomePage3 from "./pages/homes/home-3";
-import HomePage4 from "./pages/homes/home-4";
-import HomePage5 from "./pages/homes/home-5";
-import HomePage6 from "./pages/homes/home-6";
-import HomePage7 from "./pages/homes/home-7";
-import HomePage8 from "./pages/homes/home-8";
-import HomePage9 from "./pages/homes/home-9";
-import HomePage10 from "./pages/homes/home-10";
 import CourseListPage1 from "./pages/coursesList/courses-list-1";
 import CourseListPage2 from "./pages/coursesList/courses-list-2";
 import CourseListPage3 from "./pages/coursesList/courses-list-3";
@@ -86,152 +77,283 @@ import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import NotFoundPage from "./pages/not-found";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 700,
-      offset: 120,
-      easing: "ease-out",
-      once: true,
-    });
-  }, []);
+	useEffect(() => {
+		AOS.init({
+			duration: 700,
+			offset: 120,
+			easing: "ease-out",
+			once: true,
+		});
+	}, []);
 
-  return (
-    <>
-      <Context>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/">
-              <Route index element={<HomePage1 />} />
-              <Route path="home-1" element={<HomePage1 />} />
-              <Route path="home-2" element={<HomePage2 />} />
-              <Route path="home-3" element={<HomePage3 />} />
-              <Route path="home-4" element={<HomePage4 />} />
-              <Route path="home-5" element={<HomePage5 />} />
-              <Route path="home-6" element={<HomePage6 />} />
-              <Route path="home-7" element={<HomePage7 />} />
-              <Route path="home-8" element={<HomePage8 />} />
-              <Route path="home-9" element={<HomePage9 />} />
-              <Route path="home-10" element={<HomePage10 />} />
+	return (
+		<>
+			<Context>
+				<BrowserRouter>
+					<Routes>
+						<Route path="/">
+							<Route index element={<HomePage1 />} />
 
-              <Route path="courses-list-1" element={<CourseListPage1 />} />
-              <Route path="courses-list-2" element={<CourseListPage2 />} />
-              <Route path="courses-list-3" element={<CourseListPage3 />} />
-              <Route path="courses-list-4" element={<CourseListPage4 />} />
-              <Route path="courses-list-5" element={<CourseListPage5 />} />
-              <Route path="courses-list-6" element={<CourseListPage6 />} />
-              <Route path="courses-list-7" element={<CourseListPage7 />} />
-              <Route path="courses-list-8" element={<CourseListPage8 />} />
+							<Route
+								path="courses-list-1"
+								element={<CourseListPage1 />}
+							/>
+							<Route
+								path="courses-list-2"
+								element={<CourseListPage2 />}
+							/>
+							<Route
+								path="courses-list-3"
+								element={<CourseListPage3 />}
+							/>
+							<Route
+								path="courses-list-4"
+								element={<CourseListPage4 />}
+							/>
+							<Route
+								path="courses-list-5"
+								element={<CourseListPage5 />}
+							/>
+							<Route
+								path="courses-list-6"
+								element={<CourseListPage6 />}
+							/>
+							<Route
+								path="courses-list-7"
+								element={<CourseListPage7 />}
+							/>
+							<Route
+								path="courses-list-8"
+								element={<CourseListPage8 />}
+							/>
 
-              <Route path="courses/:id" element={<CourseSinglePage1 />} />
-              <Route
-                path="courses-single-2/:id"
-                element={<CourseSinglePage2 />}
-              />
-              <Route
-                path="courses-single-3/:id"
-                element={<CourseSinglePage3 />}
-              />
-              <Route
-                path="courses-single-4/:id"
-                element={<CourseSinglePage4 />}
-              />
-              <Route
-                path="courses-single-5/:id"
-                element={<CourseSinglePage5 />}
-              />
-              <Route
-                path="courses-single-6/:id"
-                element={<CourseSinglePage6 />}
-              />
+							<Route
+								path="courses/:id"
+								element={<CourseSinglePage1 />}
+							/>
+							<Route
+								path="courses-single-2/:id"
+								element={<CourseSinglePage2 />}
+							/>
+							<Route
+								path="courses-single-3/:id"
+								element={<CourseSinglePage3 />}
+							/>
+							<Route
+								path="courses-single-4/:id"
+								element={<CourseSinglePage4 />}
+							/>
+							<Route
+								path="courses-single-5/:id"
+								element={<CourseSinglePage5 />}
+							/>
+							<Route
+								path="courses-single-6/:id"
+								element={<CourseSinglePage6 />}
+							/>
 
-              <Route path="course-cart" element={<CourseCartPage />} />
-              <Route path="course-checkout" element={<CourseCheckoutPage />} />
-              {/* <Route path='courses-single-5/:id' element={<CourseSinglePage6 />} /> */}
+							<Route
+								path="course-cart"
+								element={<CourseCartPage />}
+							/>
+							<Route
+								path="course-checkout"
+								element={<CourseCheckoutPage />}
+							/>
+							{/* <Route path='courses-single-5/:id' element={<CourseSinglePage6 />} /> */}
 
-              <Route path="lesson-single-1" element={<LessonSinglePage1 />} />
-              <Route path="lesson-single-2" element={<LessonSinglePage2 />} />
+							<Route
+								path="lesson-single-1"
+								element={<LessonSinglePage1 />}
+							/>
+							<Route
+								path="lesson-single-2"
+								element={<LessonSinglePage2 />}
+							/>
 
-              <Route
-                path="instructors-list-1"
-                element={<InstractorListPage1 />}
-              />
-              <Route
-                path="instructors-list-2"
-                element={<InstractorListPage2 />}
-              />
+							<Route
+								path="instructors-list-1"
+								element={<InstractorListPage1 />}
+							/>
+							<Route
+								path="instructors-list-2"
+								element={<InstractorListPage2 />}
+							/>
 
-              <Route
-                path="instructors/:id"
-                element={<InstractorSinglePage />}
-              />
+							<Route
+								path="instructors/:id"
+								element={<InstractorSinglePage />}
+							/>
 
-              <Route
-                path="instructor-become"
-                element={<InstractoBacomePage />}
-              />
+							<Route
+								path="instructor-become"
+								element={<InstractoBacomePage />}
+							/>
 
-              <Route path="dashboard" element={<DashboardPage />} />
-              <Route path="dshb-courses" element={<DshbCoursesPage />} />
-              <Route path="dshb-bookmarks" element={<DshbBookmarksPage />} />
-              <Route path="dshb-listing" element={<DshbListingPage />} />
-              <Route path="dshb-reviews" element={<DshbReviewsPage />} />
-              <Route path="dshb-settings" element={<DshbSettingsPage />} />
-              <Route
-                path="dshb-administration"
-                element={<DshbAdministrationPage />}
-              />
-              <Route path="dshb-assignment" element={<DshbAssignmentPage />} />
-              <Route path="dshb-calendar" element={<DshbCalenderPage />} />
-              <Route path="dshb-dashboard" element={<DshbDashboardPage />} />
-              <Route path="dshb-dictionary" element={<DshbDictionaryPage />} />
-              <Route path="dshb-forums" element={<DshbForumsPage />} />
-              <Route path="dshb-grades" element={<DshbGradesPage />} />
-              <Route path="dshb-messages" element={<DshbMessagesPage />} />
-              <Route
-                path="dshb-participants"
-                element={<DshbPartcipentPage />}
-              />
-              <Route path="dshb-quiz" element={<DshbQuizPage />} />
-              <Route path="dshb-survey" element={<DshbServeyPage />} />
+							<Route
+								path="dashboard"
+								element={<DashboardPage />}
+							/>
+							<Route
+								path="dshb-courses"
+								element={<DshbCoursesPage />}
+							/>
+							<Route
+								path="dshb-bookmarks"
+								element={<DshbBookmarksPage />}
+							/>
+							<Route
+								path="dshb-listing"
+								element={<DshbListingPage />}
+							/>
+							<Route
+								path="dshb-reviews"
+								element={<DshbReviewsPage />}
+							/>
+							<Route
+								path="dshb-settings"
+								element={<DshbSettingsPage />}
+							/>
+							<Route
+								path="dshb-administration"
+								element={<DshbAdministrationPage />}
+							/>
+							<Route
+								path="dshb-assignment"
+								element={<DshbAssignmentPage />}
+							/>
+							<Route
+								path="dshb-calendar"
+								element={<DshbCalenderPage />}
+							/>
+							<Route
+								path="dshb-dashboard"
+								element={<DshbDashboardPage />}
+							/>
+							<Route
+								path="dshb-dictionary"
+								element={<DshbDictionaryPage />}
+							/>
+							<Route
+								path="dshb-forums"
+								element={<DshbForumsPage />}
+							/>
+							<Route
+								path="dshb-grades"
+								element={<DshbGradesPage />}
+							/>
+							<Route
+								path="dshb-messages"
+								element={<DshbMessagesPage />}
+							/>
+							<Route
+								path="dshb-participants"
+								element={<DshbPartcipentPage />}
+							/>
+							<Route
+								path="dshb-quiz"
+								element={<DshbQuizPage />}
+							/>
+							<Route
+								path="dshb-survey"
+								element={<DshbServeyPage />}
+							/>
 
-              <Route path="event-list-1" element={<EventListPage1 />} />
-              <Route path="event-list-2" element={<EventListPage2 />} />
-              <Route path="events/:id" element={<EventSingPage />} />
-              <Route path="event-cart" element={<EventCartPage />} />
-              <Route path="event-checkout" element={<EventCheckoutPage />} />
+							<Route
+								path="event-list-1"
+								element={<EventListPage1 />}
+							/>
+							<Route
+								path="event-list-2"
+								element={<EventListPage2 />}
+							/>
+							<Route
+								path="events/:id"
+								element={<EventSingPage />}
+							/>
+							<Route
+								path="event-cart"
+								element={<EventCartPage />}
+							/>
+							<Route
+								path="event-checkout"
+								element={<EventCheckoutPage />}
+							/>
 
-              <Route path="blog-list-1" element={<BlogListpage1 />} />
-              <Route path="blog-list-2" element={<BlogListpage2 />} />
-              <Route path="blog-list-3" element={<BlogListpage3 />} />
-              <Route path="blogs/:id" element={<BlogdetailsPage />} />
+							<Route
+								path="blog-list-1"
+								element={<BlogListpage1 />}
+							/>
+							<Route
+								path="blog-list-2"
+								element={<BlogListpage2 />}
+							/>
+							<Route
+								path="blog-list-3"
+								element={<BlogListpage3 />}
+							/>
+							<Route
+								path="blogs/:id"
+								element={<BlogdetailsPage />}
+							/>
 
-              <Route path="about-1" element={<AboutPage1 />} />
-              <Route path="about-2" element={<AboutPage2 />} />
+							<Route path="about-1" element={<AboutPage1 />} />
+							<Route path="about-2" element={<AboutPage2 />} />
 
-              <Route path="contact-1" element={<ContactPage1 />} />
-              <Route path="contact-2" element={<ContactPage2 />} />
+							<Route
+								path="contact-1"
+								element={<ContactPage1 />}
+							/>
+							<Route
+								path="contact-2"
+								element={<ContactPage2 />}
+							/>
 
-              <Route path="shop-cart" element={<ShopCartPage />} />
-              <Route path="shop-checkout" element={<ShopCheckoutPage />} />
-              <Route path="shop-list" element={<ShopListPage />} />
-              <Route path="shop-order" element={<ShopOrderPage />} />
-              <Route path="shop/:id" element={<ShopdetailsPage />} />
+							<Route
+								path="shop-cart"
+								element={<ShopCartPage />}
+							/>
+							<Route
+								path="shop-checkout"
+								element={<ShopCheckoutPage />}
+							/>
+							<Route
+								path="shop-list"
+								element={<ShopListPage />}
+							/>
+							<Route
+								path="shop-order"
+								element={<ShopOrderPage />}
+							/>
+							<Route
+								path="shop/:id"
+								element={<ShopdetailsPage />}
+							/>
 
-              <Route path="pricing" element={<PricingPage />} />
-              <Route path="not-found" element={<NotFoundPage />} />
-              <Route path="*" element={<NotFoundPage />} />
-              <Route path="terms" element={<TermsPage />} />
-              <Route path="help-center" element={<HelpCenterPage />} />
-              <Route path="login" element={<LoginPage />} />
-              <Route path="signup" element={<SignupPage />} />
-              <Route path="ui-elements" element={<UIElementsPage />} />
-            </Route>
-          </Routes>
-          <ScrollTopBehaviour />
-        </BrowserRouter>
-      </Context>
-    </>
-  );
+							<Route path="pricing" element={<PricingPage />} />
+							<Route
+								path="not-found"
+								element={<NotFoundPage />}
+							/>
+							<Route path="*" element={<NotFoundPage />} />
+							<Route path="terms" element={<TermsPage />} />
+							<Route
+								path="help-center"
+								element={<HelpCenterPage />}
+							/>
+							<Route path="login" element={<LoginPage />} />
+							<Route path="signup" element={<SignupPage />} />
+							<Route
+								path="ui-elements"
+								element={<UIElementsPage />}
+							/>
+						</Route>
+					</Routes>
+					<ScrollTopBehaviour />
+				</BrowserRouter>
+			</Context>
+		</>
+	);
 }
 
 export default App;
