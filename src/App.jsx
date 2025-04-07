@@ -63,7 +63,6 @@ import ShopListPage from "./pages/shop/shop-list";
 import ShopOrderPage from "./pages/shop/shop-order/page";
 import ShopdetailsPage from "./pages/shop/shop";
 import PricingPage from "./pages/others/pricing";
-
 import TermsPage from "./pages/others/terms";
 import HelpCenterPage from "./pages/others/help-center";
 import LoginPage from "./pages/others/login";
