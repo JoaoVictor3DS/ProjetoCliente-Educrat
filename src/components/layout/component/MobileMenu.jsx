@@ -64,159 +64,77 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
 						Sign Up
 					</Link>
 				</div>
+				<div className="d-none xl:d-flex items-center px-20 py-10 border-bottom-light text-black">
+					<ul>
+						<li>
+							<Link
+								data-barba
+								to="/"
+								className={`text-dark-1 ${
+									pathname == "/"
+										? "activeMenu"
+										: "inActiveMenu"
+								} `}
+							>
+								Home
+							</Link>
+						</li>
+						<li>
+							<Link
+								data-barba
+								to="/courses-list-4"
+								className={`text-dark-1 ${
+									pathname == "/courses-list-4"
+										? "activeMenu"
+										: "inActiveMenu"
+								} `}
+							>
+								Courses
+							</Link>
+						</li>
 
-				{showMenu && activeMobileMenu && (
-					<div className="mobileMenu text-dark-1">
-						{menuList.map((elm, i) => {
-							if (elm.title) {
-								return (
-									<div key={i} className="submenuOne">
-										<div
-											className="title"
-											onClick={() =>
-												setMenuNesting((pre) =>
-													pre[0] == elm.title
-														? []
-														: [elm.title]
-												)
-											}
-										>
-											<span
-												className={
-													elm.title == menuItem
-														? "activeMenu"
-														: "inActiveMenu"
-												}
-											>
-												{elm.title}
-											</span>
-											<i
-												className={
-													menuNesting[0] == elm.title
-														? "icon-chevron-right text-13 ml-10 active"
-														: "icon-chevron-right text-13 ml-10"
-												}
-											></i>
-										</div>
+						<li>
+							<Link
+								data-barba
+								to="/event-list-2"
+								className={`text-dark-1 ${
+									pathname == "/event-list-2"
+										? "activeMenu"
+										: "inActiveMenu"
+								} `}
+							>
+								Event
+							</Link>
+						</li>
 
-										{elm.links &&
-											elm.links.map((itm, index) => (
-												<div
-													key={index}
-													className={
-														menuNesting[0] ==
-														elm.title
-															? "toggle active"
-															: "toggle"
-													}
-												>
-													{itm.href && (
-														<Link
-															key={i}
-															className={
-																pathname?.split(
-																	"/"
-																)[1] ==
-																itm.href?.split(
-																	"/"
-																)[1]
-																	? "activeMenu link"
-																	: "link inActiveMenu"
-															}
-															to={itm.href}
-														>
-															{itm.label}
-														</Link>
-													)}
-
-													{itm.links && (
-														<div className="submenuTwo">
-															<div
-																className="title"
-																onClick={() =>
-																	setMenuNesting(
-																		(pre) =>
-																			pre[1] ==
-																			itm.title
-																				? [
-																						pre[0],
-																				  ]
-																				: [
-																						pre[0],
-																						itm.title,
-																				  ]
-																	)
-																}
-															>
-																<span
-																	className={
-																		itm.title ==
-																		submenu
-																			? "activeMenu"
-																			: "inActiveMenu"
-																	}
-																>
-																	{itm.title &&
-																		itm.title}
-																</span>
-																<i
-																	className={
-																		menuNesting[1] ==
-																		itm.title
-																			? "icon-chevron-right text-13 ml-10 active"
-																			: "icon-chevron-right text-13 ml-10"
-																	}
-																></i>
-															</div>
-															<div
-																className={
-																	menuNesting[1] ==
-																	itm.title
-																		? "toggle active"
-																		: "toggle"
-																}
-															>
-																{itm.links &&
-																	itm.links.map(
-																		(
-																			itm2,
-																			index3
-																		) => (
-																			<Link
-																				key={
-																					index3
-																				}
-																				className={
-																					pathname?.split(
-																						"/"
-																					)[1] ==
-																					itm2.href?.split(
-																						"/"
-																					)[1]
-																						? "activeMenu link"
-																						: "link inActiveMenu"
-																				}
-																				to={
-																					itm2.href
-																				}
-																			>
-																				{
-																					itm2.label
-																				}
-																			</Link>
-																		)
-																	)}
-															</div>
-														</div>
-													)}
-												</div>
-											))}
-									</div>
-								);
-							}
-						})}
-					</div>
-				)}
+						<li>
+							<Link
+								data-barba
+								to="/blog-list-3"
+								className={`text-dark-1 ${
+									pathname == "/blog-list-3"
+										? "activeMenu"
+										: "inActiveMenu"
+								} `}
+							>
+								Blog
+							</Link>
+						</li>
+						<li>
+							<Link
+								data-barba
+								to="/contact-1"
+								className={`text-dark-1 ${
+									pathname == "/contact-1"
+										? "activeMenu"
+										: "inActiveMenu"
+								} `}
+							>
+								Contact
+							</Link>
+						</li>
+					</ul>
+				</div>
 
 				{/* mobile footer start */}
 				<MobileFooter />
