@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import CartToggle from "../component/CartToggle";
-import { HeaderExplore } from "../component/header-explore";
 import Menu from "../component/Menu";
 import MobileMenu from "../component/MobileMenu";
 import SearchToggle from "../component/SearchToggle";
@@ -40,10 +39,6 @@ export default function HeaderSeven() {
 									/>
 								</Link>
 							</div>
-
-							<HeaderExplore
-								allClasses={"header__explore xl:d-none"}
-							/>
 						</div>
 					</div>
 

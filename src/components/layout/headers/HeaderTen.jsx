@@ -1,7 +1,7 @@
 import React from "react";
 
-import { HeaderExplore } from "../component/header-explore";
 import { Link } from "react-router-dom";
+
 export default function HeaderTen() {
 	return (
 		<header className="header -type-1 js-header">
@@ -17,12 +17,6 @@ export default function HeaderTen() {
 									/>
 								</Link>
 							</div>
-
-							<HeaderExplore
-								allClasses={
-									"header__explore text-green-1 ml-60 xl:ml-30 lg:d-none"
-								}
-							/>
 						</div>
 					</div>
 

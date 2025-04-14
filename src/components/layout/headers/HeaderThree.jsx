@@ -1,5 +1,4 @@
 import React from "react";
-import { HeaderExplore } from "../component/header-explore";
 import CartToggle from "../component/CartToggle";
 import Menu from "../component/Menu";
 import MobileMenu from "../component/MobileMenu";
@@ -25,11 +24,6 @@ export default function HeaderThree() {
 									/>
 								</Link>
 							</div>
-							<HeaderExplore
-								allClasses={
-									"header__explore text-purple-1 ml-30 xl:d-none"
-								}
-							/>
 
 							<div className="header-search-field ml-30">
 								<form onSubmit={handleSubmit}>

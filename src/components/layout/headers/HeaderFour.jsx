@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import CartToggle from "../component/CartToggle";
-import { HeaderExplore } from "../component/header-explore";
 import Menu from "../component/Menu";
 import MobileMenu from "../component/MobileMenu";
 import { useState } from "react";
 import SearchToggle from "../component/SearchToggle";
+
 export default function HeaderFour() {
 	const [activeMobileMenu, setActiveMobileMenu] = useState(false);
 	return (
@@ -22,8 +22,6 @@ export default function HeaderFour() {
 									/>
 								</Link>
 							</div>
-
-							<HeaderExplore allClasses="header__explore px-30 xl:px-20 -before-border -after-border xl:d-none" />
 
 							<Menu
 								headerPosition="pl-30 xl:pl-20"

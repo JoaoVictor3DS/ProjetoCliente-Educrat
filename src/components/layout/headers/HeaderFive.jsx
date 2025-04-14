@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import CartToggle from "../component/CartToggle";
-import { HeaderExplore } from "../component/header-explore";
 import Menu from "../component/Menu";
 import MobileMenu from "../component/MobileMenu";
 
@@ -29,11 +28,6 @@ export default function HeaderFive() {
 								</Link>
 							</div>
 
-							<HeaderExplore
-								allClasses={
-									"header__explore px-30 xl:px-20 -before-border -after-border xl:d-none"
-								}
-							/>
 							<Menu
 								headerPosition={"pl-30 xl:pl-20"}
 								allClasses={"menu__nav text-dark-1 -is-active"}

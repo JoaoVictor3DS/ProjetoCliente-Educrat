@@ -1,5 +1,4 @@
 import React from "react";
-import { HeaderExplore } from "../component/header-explore";
 
 import SearchToggle from "../component/SearchToggle";
 import CartToggle from "../component/CartToggle";
@@ -27,14 +26,6 @@ export default function Header() {
 										/>
 									</Link>
 								</div>
-
-								{/* header explore start */}
-								<HeaderExplore
-									allClasses={
-										"header__explore text-green-1 ml-60 xl:ml-30 xl:d-none"
-									}
-								/>
-								{/* header explore end */}
 							</div>
 						</div>
 
