@@ -51,7 +51,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
 							pathname == "/login" ? "activeMenu" : "inActiveMenu"
 						} `}
 					>
-						Log in
+						Entrar
 					</Link>
 					<Link
 						to="/signup"
@@ -61,7 +61,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
 								: "inActiveMenu"
 						} `}
 					>
-						Sign Up
+						Cadastrar-se
 					</Link>
 				</div>
 				<div className="d-none xl:d-flex items-center px-20 py-10 border-bottom-light text-black">
@@ -76,7 +76,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
 										: "inActiveMenu"
 								} `}
 							>
-								Home
+								Início
 							</Link>
 						</li>
 						<li>
@@ -89,7 +89,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
 										: "inActiveMenu"
 								} `}
 							>
-								Courses
+								Cursos
 							</Link>
 						</li>
 
@@ -103,7 +103,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
 										: "inActiveMenu"
 								} `}
 							>
-								Event
+								Eventos
 							</Link>
 						</li>
 
@@ -130,7 +130,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
 										: "inActiveMenu"
 								} `}
 							>
-								Contact
+								Contato
 							</Link>
 						</li>
 					</ul>

@@ -16,43 +16,42 @@ import Typography from "@/components/uiElements/Typography";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title:
-    "UI elements || Educrat - Professional LMS Online Education Course ReactJS Template",
-  description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+	title: "Elementos de UI || Educrat - Template ReactJS de Cursos Online e Educação Profissional",
+	description:
+		"Eleve seu conteúdo de e-learning com o Educrat, o mais impressionante template LMS para cursos online, educação e plataformas LMS.",
 };
 import React from "react";
 
 export default function UIElementsPage() {
-  return (
-    <div className="main-content  ">
-      <MetaComponent meta={metadata} />
-      <Preloader />
+	return (
+		<div className="main-content  ">
+			<MetaComponent meta={metadata} />
+			<Preloader />
 
-      <Header />
-      <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <PageLinks />
-        <PageHeading />
-        <section className="layout-pb-lg">
-          <div className="container">
-            <div className="row y-gap-50">
-              <Accordions />
-              <Tabs />
-              <Table />
-              <MessageBoxes />
-            </div>
-            <Buttons />
-            <Form />
-            <div className="row y-gap-30 justify-between mt-50">
-              <Tooltips />
-              <ProgressBars />
-            </div>
-            <Typography />
-          </div>
-        </section>
+			<Header />
+			<div className="content-wrapper js-content-wrapper overflow-hidden">
+				<PageLinks />
+				<PageHeading />
+				<section className="layout-pb-lg">
+					<div className="container">
+						<div className="row y-gap-50">
+							<Accordions />
+							<Tabs />
+							<Table />
+							<MessageBoxes />
+						</div>
+						<Buttons />
+						<Form />
+						<div className="row y-gap-30 justify-between mt-50">
+							<Tooltips />
+							<ProgressBars />
+						</div>
+						<Typography />
+					</div>
+				</section>
 
-        <FooterOne />
-      </div>
-    </div>
-  );
+				<FooterOne />
+			</div>
+		</div>
+	);
 }

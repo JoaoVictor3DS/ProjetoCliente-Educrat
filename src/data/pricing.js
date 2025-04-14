@@ -1,41 +1,41 @@
 export const pricingData = [
-  {
-    type: "Basic",
-    price: 0,
-    period: "per month",
+	{
+		type: "Básico",
+		price: 0,
+		period: "por mês",
 
-    features: [
-      "All Operating Supported",
-      "Great Interface",
-      "Allows encryption",
-      "Face recognized system",
-      "24/7 Full support",
-    ],
-  },
-  {
-    type: "Professional",
-    price: 599.95,
-    period: "per month",
+		features: [
+			"Compatível com todos os sistemas operacionais",
+			"Interface excelente",
+			"Permite criptografia",
+			"Sistema de reconhecimento facial",
+			"Suporte completo 24/7",
+		],
+	},
+	{
+		type: "Profissional",
+		price: 599.95,
+		period: "por mês",
 
-    features: [
-      "All Operating Supported",
-      "Great Interface",
-      "Allows encryption",
-      "Face recognized system",
-      "24/7 Full support",
-    ],
-  },
-  {
-    type: "Business",
-    price: 999.95,
-    period: "per month",
+		features: [
+			"Compatível com todos os sistemas operacionais",
+			"Interface excelente",
+			"Permite criptografia",
+			"Sistema de reconhecimento facial",
+			"Suporte completo 24/7",
+		],
+	},
+	{
+		type: "Empresarial",
+		price: 999.95,
+		period: "por mês",
 
-    features: [
-      "All Operating Supported",
-      "Great Interface",
-      "Allows encryption",
-      "Face recognized system",
-      "24/7 Full support",
-    ],
-  },
+		features: [
+			"Compatível com todos os sistemas operacionais",
+			"Interface excelente",
+			"Permite criptografia",
+			"Sistema de reconhecimento facial",
+			"Suporte completo 24/7",
+		],
+	},
 ];

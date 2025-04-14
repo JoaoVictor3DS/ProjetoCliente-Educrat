@@ -9,9 +9,9 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-	title: "Lesson-single-1 || Educrat - Professional LMS Online Education Course ReactJS Template",
+	title: "Aula Única-1 || Educrat - Template ReactJS de Cursos Online e Educação Profissional",
 	description:
-		"Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+		"Eleve seu conteúdo de e-learning com o Educrat, o mais impressionante template LMS para cursos online, educação e plataformas LMS.",
 };
 
 export default function LessonSinglePage1() {

@@ -20,10 +20,10 @@ export default function Menu({ allClasses, headerPosition }) {
 
 				<div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
 					<Link to="/login" className="text-dark-1">
-						Log in
+						Entrar
 					</Link>
 					<Link to="/signup" className="text-dark-1 ml-30">
-						Sign Up
+						Cadastrar-se
 					</Link>
 				</div>
 
@@ -39,7 +39,7 @@ export default function Menu({ allClasses, headerPosition }) {
 										: "inActiveMenuTwo"
 								}
 							>
-								Home
+								Início
 							</Link>
 						</li>
 
@@ -53,7 +53,7 @@ export default function Menu({ allClasses, headerPosition }) {
 										: "inActiveMenuTwo"
 								}
 							>
-								Courses
+								Cursos
 							</Link>
 						</li>
 
@@ -67,7 +67,7 @@ export default function Menu({ allClasses, headerPosition }) {
 										: "inActiveMenuTwo"
 								}
 							>
-								Event
+								Eventos
 							</Link>
 						</li>
 
@@ -85,188 +85,6 @@ export default function Menu({ allClasses, headerPosition }) {
 							</Link>
 						</li>
 
-						{/* <li className="menu-item-has-children">
-							<Link
-								data-barba
-								to="#"
-								className={
-									menuItem == "Pages" ? "activeMenu" : ""
-								}
-							>
-								Pages{" "}
-								<i className="icon-chevron-right text-13 ml-10"></i>
-							</Link>
-
-							<ul className="subnav">
-								<li className="menu__backButton js-nav-list-back">
-									<Link to="#">
-										<i className="icon-chevron-left text-13 mr-10"></i>{" "}
-										Pages
-									</Link>
-								</li>
-								<li className="menu-item-has-children">
-									<Link
-										to="#"
-										className={
-											submenu == "About Us"
-												? "activeMenu"
-												: "inActiveMenu"
-										}
-									>
-										About Us
-										<div className="icon-chevron-right text-11"></div>
-									</Link>
-
-									<ul className="subnav">
-										<li className="menu__backButton js-nav-list-back">
-											<Link to="#">
-												<i className="icon-chevron-left text-13 mr-10"></i>
-												About Us
-											</Link>
-										</li>
-
-										{menuList[4].links[0].links.map(
-											(elm, i) => (
-												<li
-													key={i}
-													className={
-														pathname.split(
-															"/"
-														)[1] ==
-														elm.href.split("/")[1]
-															? "activeMenu"
-															: "inActiveMenu"
-													}
-												>
-													<Link
-														key={i}
-														data-barba
-														to={elm.href}
-													>
-														{elm.label}
-													</Link>
-												</li>
-											)
-										)}
-									</ul>
-								</li>
-
-								<li className="menu-item-has-children">
-									<Link
-										to="#"
-										className={
-											submenu == "Contact"
-												? "activeMenu"
-												: "inActiveMenu"
-										}
-									>
-										Contact
-										<div className="icon-chevron-right text-11"></div>
-									</Link>
-									<ul className="subnav">
-										<li className="menu__backButton js-nav-list-back">
-											<Link to="#">
-												<i className="icon-chevron-left text-13 mr-10"></i>
-												Contact
-											</Link>
-										</li>
-
-										{menuList[4].links[1].links.map(
-											(elm, i) => (
-												<li
-													key={i}
-													className={
-														pathname.split(
-															"/"
-														)[1] ==
-														elm.href.split("/")[1]
-															? "activeMenu"
-															: "inActiveMenu"
-													}
-												>
-													<Link
-														key={i}
-														data-barba
-														to={elm.href}
-													>
-														{elm.label}
-													</Link>
-												</li>
-											)
-										)}
-									</ul>
-								</li>
-
-								<li className="menu-item-has-children">
-									<Link
-										to="#"
-										className={
-											submenu == "Shop"
-												? "activeMenu"
-												: "inActiveMenu"
-										}
-									>
-										Shop
-										<div className="icon-chevron-right text-11"></div>
-									</Link>
-									<ul className="subnav">
-										<li className="menu__backButton js-nav-list-back">
-											<Link to="#">
-												<i className="icon-chevron-left text-13 mr-10"></i>{" "}
-												Shop
-											</Link>
-										</li>
-
-										{menuList[4].links[2].links.map(
-											(elm, i) => (
-												<li
-													key={i}
-													className={
-														pathname.split(
-															"/"
-														)[1] ==
-														elm.href.split("/")[1]
-															? "activeMenu"
-															: "inActiveMenu"
-													}
-												>
-													<Link
-														key={i}
-														data-barba
-														to={elm.href}
-													>
-														{elm.label}
-													</Link>
-												</li>
-											)
-										)}
-									</ul>
-								</li>
-
-								{menuList[4].links
-									.filter((el) => el.href)
-									.map((elm, i) => (
-										<li
-											key={i}
-											className={
-												pathname.split("/")[1] ==
-												elm.href.split("/")[1]
-													? "activeMenu"
-													: "inActiveMenu"
-											}
-										>
-											<Link
-												key={i}
-												data-barba
-												to={elm.href}
-											>
-												{elm.label}
-											</Link>
-										</li>
-									))}
-							</ul>
-						</li> */}
-
 						<li>
 							<Link
 								data-barba
@@ -277,7 +95,7 @@ export default function Menu({ allClasses, headerPosition }) {
 										: "inActiveMenuTwo"
 								}
 							>
-								Contact
+								Contato
 							</Link>
 						</li>
 					</ul>

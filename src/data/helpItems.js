@@ -1,38 +1,44 @@
 export const helpItems = [
-  {
-    id: 1,
-    icon: "/assets/img/help-center/1.svg",
-    title: "Getting Started",
-    description: "Lorem ipsum is placeholder text commonly used in site.",
-  },
-  {
-    id: 2,
-    icon: "/assets/img/help-center/2.svg",
-    title: "Account / Profile",
-    description: "Lorem ipsum is placeholder text commonly used in site.",
-  },
-  {
-    id: 3,
-    icon: "/assets/img/help-center/3.svg",
-    title: "Troubleshooting",
-    description: "Lorem ipsum is placeholder text commonly used in site.",
-  },
-  {
-    id: 4,
-    icon: "/assets/img/help-center/4.svg",
-    title: "Purchase / Refunds",
-    description: "Lorem ipsum is placeholder text commonly used in site.",
-  },
-  {
-    id: 5,
-    icon: "/assets/img/help-center/5.svg",
-    title: "Course Taking",
-    description: "Lorem ipsum is placeholder text commonly used in site.",
-  },
-  {
-    id: 6,
-    icon: "/assets/img/help-center/6.svg",
-    title: "Mobile General",
-    description: "Lorem ipsum is placeholder text commonly used in site.",
-  },
+	{
+		id: 1,
+		icon: "/assets/img/help-center/1.svg",
+		title: "Primeiros Passos",
+		description:
+			"Lorem ipsum é um texto de preenchimento comumente usado em sites.",
+	},
+	{
+		id: 2,
+		icon: "/assets/img/help-center/2.svg",
+		title: "Conta / Perfil",
+		description:
+			"Lorem ipsum é um texto de preenchimento comumente usado em sites.",
+	},
+	{
+		id: 3,
+		icon: "/assets/img/help-center/3.svg",
+		title: "Solução de Problemas",
+		description:
+			"Lorem ipsum é um texto de preenchimento comumente usado em sites.",
+	},
+	{
+		id: 4,
+		icon: "/assets/img/help-center/4.svg",
+		title: "Compras / Reembolsos",
+		description:
+			"Lorem ipsum é um texto de preenchimento comumente usado em sites.",
+	},
+	{
+		id: 5,
+		icon: "/assets/img/help-center/5.svg",
+		title: "Realização de Cursos",
+		description:
+			"Lorem ipsum é um texto de preenchimento comumente usado em sites.",
+	},
+	{
+		id: 6,
+		icon: "/assets/img/help-center/6.svg",
+		title: "Geral no Mobile",
+		description:
+			"Lorem ipsum é um texto de preenchimento comumente usado em sites.",
+	},
 ];

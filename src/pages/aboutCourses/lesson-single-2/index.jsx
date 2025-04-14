@@ -10,33 +10,32 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title:
-    "Lesson-single-1 || Educrat - Professional LMS Online Education Course ReactJS Template",
-  description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+	title: "Aula Única-2 || Educrat - Template ReactJS de Cursos Online e Educação Profissional",
+	description:
+		"Eleve seu conteúdo de e-learning com o Educrat, o mais impressionante template LMS para cursos online, educação e plataformas LMS.",
 };
 
 export default function LessonSinglePage2() {
-  return (
-    <div className="main-content  ">
-      <MetaComponent meta={metadata} />
-      <Preloader />
-      <HeaderTen />
-      <div className="content-wrapper  js-content-wrapper overflow-hidden">
-        <section className="layout-pt-lg layout-pb-lg lg:pt-40 lg:order-1">
-          <div className="container">
-            <div className="row justify-start marginCustom ">
-              <div className="col-xxl-8 col-xl-7 col-lg-8">
-                <VideoTwo />
+	return (
+		<div className="main-content  ">
+			<MetaComponent meta={metadata} />
+			<Preloader />
+			<HeaderTen />
+			<div className="content-wrapper  js-content-wrapper overflow-hidden">
+				<section className="layout-pt-lg layout-pb-lg lg:pt-40 lg:order-1">
+					<div className="container">
+						<div className="row justify-start marginCustom ">
+							<div className="col-xxl-8 col-xl-7 col-lg-8">
+								<VideoTwo />
 
-                <Descriptions />
-                <Reviews />
-              </div>
-            </div>
-          </div>
-        </section>
-        <LessonItems rightPosition={true} />
-      </div>
-    </div>
-  );
+								<Descriptions />
+								<Reviews />
+							</div>
+						</div>
+					</div>
+				</section>
+				<LessonItems rightPosition={true} />
+			</div>
+		</div>
+	);
 }

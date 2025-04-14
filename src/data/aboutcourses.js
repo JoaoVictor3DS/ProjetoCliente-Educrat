@@ -1,231 +1,253 @@
 export const requirements = [
-  "You will need a copy of Adobe XD 2019 or above. A free trial can be downloaded from Adobe.",
-  "No previous design experience is needed.",
-  "No previous Adobe XD skills are needed.",
+	"Você precisará de uma cópia do Adobe XD 2019 ou superior. Uma versão de teste gratuita pode ser baixada no site da Adobe.",
+	"Não é necessário ter experiência prévia em design.",
+	"Não é necessário ter habilidades prévias no Adobe XD.",
 ];
 
 export const learnList = [
-  "Become a UX designer.",
-  "You will be able to add UX designer to your CV",
-  "Become a UI designer.",
-  "Build & test a full website design.",
-  "Create your first UX brief & persona.",
-  "How to use premade UI kits.",
-  "Create quick wireframes.",
-  "Downloadable exercise files",
-  "Build a UX project from beginning to end.",
-  "Learn to design websites & mobile phone apps.",
-  "All the techniques used by UX professionals",
-  "You will be able to talk correctly with other UX design.",
+	"Torne-se um designer de UX.",
+	"Você poderá adicionar 'Designer de UX' ao seu currículo.",
+	"Torne-se um designer de UI.",
+	"Construa e teste o design de um site completo.",
+	"Crie seu primeiro briefing de UX e persona.",
+	"Como usar kits de UI prontos.",
+	"Crie wireframes rapidamente.",
+	"Arquivos de exercícios para download.",
+	"Desenvolva um projeto de UX do início ao fim.",
+	"Aprenda a projetar sites e aplicativos para celular.",
+	"Técnicas utilizadas por profissionais de UX.",
+	"Você será capaz de se comunicar corretamente com outros designers de UX.",
 ];
 
 export const reviews = [
-  {
-    id: 1,
-    avatarSrc: "/assets/img/avatars/1.png",
-    name: "Ali Tufan",
-    date: "3 Days ago",
-    rating: 5,
-    title: "The best LMS Design",
-    comment:
-      "This course is a very applicable. Professor Ng explains precisely each algorithm and even tries to give an intuition for mathematical and statistic concepts behind each algorithm. Thank you very much.",
-  },
-  {
-    id: 2,
-    avatarSrc: "/assets/img/avatars/1.png",
-    name: "Ali Tufan",
-    date: "3 Days ago",
-    rating: 5,
-    title: "The best LMS Design",
-    comment:
-      "This course is a very applicable. Professor Ng explains precisely each algorithm and even tries to give an intuition for mathematical and statistic concepts behind each algorithm. Thank you very much.",
-  },
-  {
-    id: 3,
-    avatarSrc: "/assets/img/avatars/1.png",
-    name: "Ali Tufan",
-    date: "3 Days ago",
-    rating: 5,
-    title: "The best LMS Design",
-    comment:
-      "This course is a very applicable. Professor Ng explains precisely each algorithm and even tries to give an intuition for mathematical and statistic concepts behind each algorithm. Thank you very much.",
-  },
-  // Add more comment objects as needed
+	{
+		id: 1,
+		avatarSrc: "/assets/img/avatars/1.png",
+		name: "Ali Tufan",
+		date: "Há 3 dias",
+		rating: 5,
+		title: "O melhor design de LMS",
+		comment:
+			"Este curso é muito aplicável. O professor Ng explica precisamente cada algoritmo e até tenta dar uma intuição para os conceitos matemáticos e estatísticos por trás de cada algoritmo. Muito obrigado.",
+	},
+	{
+		id: 2,
+		avatarSrc: "/assets/img/avatars/1.png",
+		name: "Ali Tufan",
+		date: "Há 3 dias",
+		rating: 5,
+		title: "O melhor design de LMS",
+		comment:
+			"Este curso é muito aplicável. O professor Ng explica precisamente cada algoritmo e até tenta dar uma intuição para os conceitos matemáticos e estatísticos por trás de cada algoritmo. Muito obrigado.",
+	},
+	{
+		id: 3,
+		avatarSrc: "/assets/img/avatars/1.png",
+		name: "Ali Tufan",
+		date: "Há 3 dias",
+		rating: 5,
+		title: "O melhor design de LMS",
+		comment:
+			"Este curso é muito aplicável. O professor Ng explica precisamente cada algoritmo e até tenta dar uma intuição para os conceitos matemáticos e estatísticos por trás de cada algoritmo. Muito obrigado.",
+	},
 ];
 
 export const lessonItems = [
-  {
-    id: 1,
-    title: "Course Content",
-    duration: "87 min",
-    lessons: [
-      { id: 1, title: "Introduction to the User", duration: "03:56" },
-      { id: 2, title: "Getting started with your", duration: "03:56" },
-      {
-        id: 3,
-        title:
-          "What is UI vs UX - User Interface vs User Experience vs Product",
-        duration: "03:56",
-      },
-      { id: 4, title: "Wireframing (low fidelity) in", duration: "03:56" },
-      { id: 5, title: "Viewing your prototype on", duration: "03:56" },
-      { id: 6, title: "Sharing your design", duration: "03:56" },
-    ],
-  },
-  {
-    id: 2,
-    title: "The Brief",
-    duration: "87 min",
-    lessons: [
-      {
-        id: 1,
-        title: "Introduction to the User",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 2,
-        title: "Getting started with your",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 3,
-        title:
-          "What is UI vs UX - User Interface vs User Experience vs Product",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 4,
-        title: "Wireframing (low fidelity) in",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 5,
-        title: "Viewing your prototype on",
-        duration: "03:56",
-        questions: 5,
-      },
-      { id: 6, title: "Sharing your design", duration: "03:56", questions: 5 },
-    ],
-  },
-  {
-    id: 3,
-    title: "Type, Color & Icon Introduction",
-    duration: "87 min",
-    lessons: [
-      {
-        id: 1,
-        title: "Introduction to the User",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 2,
-        title: "Getting started with your",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 3,
-        title:
-          "What is UI vs UX - User Interface vs User Experience vs Product",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 4,
-        title: "Wireframing (low fidelity) in",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 5,
-        title: "Viewing your prototype on",
-        duration: "03:56",
-        questions: 5,
-      },
-      { id: 6, title: "Sharing your design", duration: "03:56", questions: 5 },
-    ],
-  },
-  {
-    id: 4,
-    title: "Prototyping a App - Introduction",
-    duration: "87 min",
-    lessons: [
-      {
-        id: 1,
-        title: "Introduction to the User",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 2,
-        title: "Getting started with your",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 3,
-        title:
-          "What is UI vs UX - User Interface vs User Experience vs Product",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 4,
-        title: "Wireframing (low fidelity) in",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 5,
-        title: "Viewing your prototype on",
-        duration: "03:56",
-        questions: 5,
-      },
-      { id: 6, title: "Sharing your design", duration: "03:56", questions: 5 },
-    ],
-  },
-  {
-    id: 5,
-    title: "Wireframe Feedback",
-    duration: "87 min",
-    lessons: [
-      {
-        id: 1,
-        title: "Introduction to the User",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 2,
-        title: "Getting started with your",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 3,
-        title:
-          "What is UI vs UX - User Interface vs User Experience vs Product",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 4,
-        title: "Wireframing (low fidelity) in",
-        duration: "03:56",
-        questions: 5,
-      },
-      {
-        id: 5,
-        title: "Viewing your prototype on",
-        duration: "03:56",
-        questions: 5,
-      },
-      { id: 6, title: "Sharing your design", duration: "03:56", questions: 5 },
-    ],
-  },
+	{
+		id: 1,
+		title: "Conteúdo do Curso",
+		duration: "87 min",
+		lessons: [
+			{ id: 1, title: "Introdução ao Usuário", duration: "03:56" },
+			{ id: 2, title: "Começando com seu", duration: "03:56" },
+			{
+				id: 3,
+				title: "O que é UI vs UX - Interface do Usuário vs Experiência do Usuário vs Produto",
+				duration: "03:56",
+			},
+			{
+				id: 4,
+				title: "Wireframing (baixa fidelidade) em",
+				duration: "03:56",
+			},
+			{
+				id: 5,
+				title: "Visualizando seu protótipo em",
+				duration: "03:56",
+			},
+			{ id: 6, title: "Compartilhando seu design", duration: "03:56" },
+		],
+	},
+	{
+		id: 2,
+		title: "O Briefing",
+		duration: "87 min",
+		lessons: [
+			{
+				id: 1,
+				title: "Introdução ao Usuário",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 2,
+				title: "Começando com seu",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 3,
+				title: "O que é UI vs UX - Interface do Usuário vs Experiência do Usuário vs Produto",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 4,
+				title: "Wireframing (baixa fidelidade) em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 5,
+				title: "Visualizando seu protótipo em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 6,
+				title: "Compartilhando seu design",
+				duration: "03:56",
+				questions: 5,
+			},
+		],
+	},
+	{
+		id: 3,
+		title: "Introdução a Tipografia, Cor e Ícones",
+		duration: "87 min",
+		lessons: [
+			{
+				id: 1,
+				title: "Introdução ao Usuário",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 2,
+				title: "Começando com seu",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 3,
+				title: "O que é UI vs UX - Interface do Usuário vs Experiência do Usuário vs Produto",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 4,
+				title: "Wireframing (baixa fidelidade) em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 5,
+				title: "Visualizando seu protótipo em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 6,
+				title: "Compartilhando seu design",
+				duration: "03:56",
+				questions: 5,
+			},
+		],
+	},
+	{
+		id: 4,
+		title: "Introdução ao Prototipagem de Aplicativos",
+		duration: "87 min",
+		lessons: [
+			{
+				id: 1,
+				title: "Introdução ao Usuário",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 2,
+				title: "Começando com seu",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 3,
+				title: "O que é UI vs UX - Interface do Usuário vs Experiência do Usuário vs Produto",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 4,
+				title: "Wireframing (baixa fidelidade) em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 5,
+				title: "Visualizando seu protótipo em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 6,
+				title: "Compartilhando seu design",
+				duration: "03:56",
+				questions: 5,
+			},
+		],
+	},
+	{
+		id: 5,
+		title: "Feedback do Wireframe",
+		duration: "87 min",
+		lessons: [
+			{
+				id: 1,
+				title: "Introdução ao Usuário",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 2,
+				title: "Começando com seu",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 3,
+				title: "O que é UI vs UX - Interface do Usuário vs Experiência do Usuário vs Produto",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 4,
+				title: "Wireframing (baixa fidelidade) em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 5,
+				title: "Visualizando seu protótipo em",
+				duration: "03:56",
+				questions: 5,
+			},
+			{
+				id: 6,
+				title: "Compartilhando seu design",
+				duration: "03:56",
+				questions: 5,
+			},
+		],
+	},
 ];
