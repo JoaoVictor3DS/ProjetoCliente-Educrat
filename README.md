@@ -56,6 +56,9 @@ This project is a ReactJS template for online education courses. The following c
 12. **Mobile Menu**: Updated the mobile menu to display only buttons with active states.
 13. **404 Page**: Fixed the "Go to Home" button to correctly link to the home page.
 14. **Code Formatting**: Reformatted various files for consistency and readability.
+15. **Header Components**: Removed the `HeaderExplore` component from `HeaderSeven.jsx`.
+    - Modified paths:
+        - `src/components/layout/headers/HeaderSeven.jsx`
 
 ---
 
@@ -115,3 +118,6 @@ Este projeto é um template ReactJS para cursos de educação online. As seguint
 12. **Menu Mobile**: Atualizado o menu mobile para exibir apenas botões com estados ativos.
 13. **Página 404**: Corrigido o botão "Ir para Início" para redirecionar corretamente à página inicial.
 14. **Formatação de Código**: Reformatação de vários arquivos para consistência e legibilidade.
+15. **Componentes de Cabeçalho**: Removido o componente `HeaderExplore` do arquivo `HeaderSeven.jsx`.
+    - Caminhos modificados:
+        - `src/components/layout/headers/HeaderSeven.jsx`
