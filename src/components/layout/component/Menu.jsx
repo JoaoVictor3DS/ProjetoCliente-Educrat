@@ -31,19 +31,43 @@ export default function Menu({ allClasses, headerPosition }) {
 				<div className="menu js-navList">
 					<ul className={`${allClasses ? allClasses : ""}`}>
 						<li>
-							<Link data-barba to="/">
+							<Link
+								data-barba
+								to="/"
+								className={
+									pathname == "/"
+										? "activeMenu"
+										: "inActiveMenuTwo"
+								}
+							>
 								Home
 							</Link>
 						</li>
 
 						<li className="menu-item-has-children -has-mega-menu">
-							<Link data-barba to="/courses-list-4">
+							<Link
+								data-barba
+								to="/courses-list-4"
+								className={
+									pathname == "/courses-list-4"
+										? "activeMenu"
+										: "inActiveMenuTwo"
+								}
+							>
 								Courses
 							</Link>
 						</li>
 
 						<li>
-							<Link data-barba to="/event-list-2">
+							<Link
+								data-barba
+								to="/event-list-2"
+								className={
+									pathname == "/event-list-2"
+										? "activeMenu"
+										: "inActiveMenuTwo"
+								}
+							>
 								Event
 							</Link>
 						</li>
@@ -53,7 +77,9 @@ export default function Menu({ allClasses, headerPosition }) {
 								data-barba
 								to="/blog-list-3"
 								className={
-									menuItem == "Blogs" ? "activeMenu" : ""
+									pathname == "/blog-list-3"
+										? "activeMenu"
+										: "inActiveMenuTwo"
 								}
 							>
 								Blog
