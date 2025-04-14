@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import MobileFooter from "./MobileFooter";
 
-import { menuList } from "@/data/menu";
 import { useLocation } from "react-router-dom";
 
 export default function Menu({ allClasses, headerPosition }) {
