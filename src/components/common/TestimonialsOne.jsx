@@ -66,17 +66,17 @@ export default function TestimonialsOne() {
 									>
 										<div className="testimonials__content">
 											<h4 className="testimonials__title">
-												{elm.comment}
+												{elm.title}
 											</h4>
 											<p className="testimonials__text">
-												{`“${elm.description}”`}
+												{`“${elm.comment}”`}
 											</p>
 
 											<div className="testimonials-footer">
 												<div className="testimonials-footer__image">
 													<img
-														src={elm.imageSrc}
-														alt="image"
+														src={elm.avatar}
+														alt="avatar"
 													/>
 												</div>
 
