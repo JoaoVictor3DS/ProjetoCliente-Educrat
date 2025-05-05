@@ -12,9 +12,9 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 import { useParams } from "react-router-dom";
 const metadata = {
-	title: "Couese-single-6 || Educrat - Professional LMS Online Education Course ReactJS Template",
+	title: "Meu Curso, Minha Vida",
 	description:
-		"Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+		"Eleve seu conteúdo de e-learning com o Meu Curso, Minha Vida.",
 };
 
 export default function CourseSinglePage6() {

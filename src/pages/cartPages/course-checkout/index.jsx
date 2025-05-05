@@ -9,25 +9,24 @@ import CourseCheckOut from "@/components/cartsAndCheckout/CourseCheckout";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title:
-    "Course-checkout || Educrat - Professional LMS Online Education Course ReactJS Template",
-  description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+	title: "Meu Curso, Minha Vida",
+	description:
+		"Eleve seu conteúdo de e-learning com o Meu Curso, Minha Vida.",
 };
 export default function CourseCheckoutPage() {
-  return (
-    <div className="main-content  ">
-      <MetaComponent meta={metadata} />
-      <Preloader />
+	return (
+		<div className="main-content  ">
+			<MetaComponent meta={metadata} />
+			<Preloader />
 
-      <Header />
-      <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <PageLinks />
+			<Header />
+			<div className="content-wrapper js-content-wrapper overflow-hidden">
+				<PageLinks />
 
-        <CourseCheckOut />
+				<CourseCheckOut />
 
-        <FooterOne />
-      </div>
-    </div>
-  );
+				<FooterOne />
+			</div>
+		</div>
+	);
 }

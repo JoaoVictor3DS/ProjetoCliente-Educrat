@@ -9,26 +9,25 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title:
-    "Blog-list-3 || Educrat - Professional LMS Online Education Course ReactJS Template",
-  description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+	title: "Blog-list-3 || Educrat - Professional LMS Online Education Course ReactJS Template",
+	description:
+		"Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
 };
 
 export default function BlogListpage3() {
-  return (
-    <div className="main-content  ">
-      <MetaComponent meta={metadata} />
-      <Preloader />
+	return (
+		<div className="main-content  ">
+			<MetaComponent meta={metadata} />
+			<Preloader />
 
-      <Header />
-      <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <PageLinks />
+			<Header />
+			<div className="content-wrapper js-content-wrapper overflow-hidden">
+				<PageLinks />
 
-        <BlogsThree />
+				<BlogsThree />
 
-        <FooterOne />
-      </div>
-    </div>
-  );
+				<FooterOne />
+			</div>
+		</div>
+	);
 }

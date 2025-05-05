@@ -8,23 +8,23 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title:
-    "Event-list-2 || Educrat - Professional LMS Online Education Course ReactJS Template",
-  description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+	title: "Meu Curso, Minha Vida",
+	description:
+		"Eleve seu conteúdo de e-learning com o Meu Curso, Minha Vida.",
 };
-export default function EventListPage2() {
-  return (
-    <div className="main-content  ">
-      <MetaComponent meta={metadata} />
-      <Preloader />
 
-      <Header />
-      <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <PageLinks />
-        <EventsTwo />
-        <FooterOne />
-      </div>
-    </div>
-  );
+export default function EventListPage2() {
+	return (
+		<div className="main-content  ">
+			<MetaComponent meta={metadata} />
+			<Preloader />
+
+			<Header />
+			<div className="content-wrapper js-content-wrapper overflow-hidden">
+				<PageLinks />
+				<EventsTwo />
+				<FooterOne />
+			</div>
+		</div>
+	);
 }

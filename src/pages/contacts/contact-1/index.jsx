@@ -8,26 +8,25 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title:
-    "Contact-1 || Educrat - Professional LMS Online Education Course ReactJS Template",
-  description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+	title: "Meu Curso, Minha Vida",
+	description:
+		"Eleve seu conteúdo de e-learning com o Meu Curso, Minha Vida.",
 };
 
 export default function ContactPage1() {
-  return (
-    <div className="main-content  ">
-      <MetaComponent meta={metadata} />
+	return (
+		<div className="main-content  ">
+			<MetaComponent meta={metadata} />
 
-      <Preloader />
+			<Preloader />
 
-      <Header />
-      <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <ContactOne />
-        <Faq />
+			<Header />
+			<div className="content-wrapper js-content-wrapper overflow-hidden">
+				<ContactOne />
+				<Faq />
 
-        <FooterOne />
-      </div>
-    </div>
-  );
+				<FooterOne />
+			</div>
+		</div>
+	);
 }
