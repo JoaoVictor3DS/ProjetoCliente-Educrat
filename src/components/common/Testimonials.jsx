@@ -69,7 +69,7 @@ export default function Testimonials({ backgroundComponent }) {
 									speed={1000}
 									slidesPerView={1}
 									onSwiper={(swiper) => {
-										swiperRef.current = swiper; // Store the Swiper instance in the ref
+										swiperRef.current = swiper;
 									}}
 									onSlideChange={handleSlideChange}
 								>

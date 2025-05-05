@@ -5,14 +5,14 @@ export const testimonials = [
 		role: "Desenvolvedor Frontend",
 		comment:
 			"Os cursos me ajudaram a dominar React e melhorar minha carreira.",
-		avatar: "/assets/img/testimonials/1.png",
+		avatar: "/assets/img/avatars/1.png",
 	},
 	{
 		id: 2,
 		name: "Maria Oliveira",
 		role: "Engenheira de Software",
 		comment: "Aprendi a criar APIs robustas com Node.js. Recomendo muito!",
-		avatar: "/assets/img/testimonials/2.png",
+		avatar: "/assets/img/avatars/2.png",
 	},
 	{
 		id: 3,
@@ -20,7 +20,7 @@ export const testimonials = [
 		role: "Desenvolvedor Full Stack",
 		comment:
 			"As aulas práticas me ajudaram a entender melhor o ciclo de desenvolvimento.",
-		avatar: "/assets/img/testimonials/3.png",
+		avatar: "/assets/img/avatars/3.png",
 	},
 	{
 		id: 4,
@@ -28,7 +28,7 @@ export const testimonials = [
 		role: "Especialista em DevOps",
 		comment:
 			"Os cursos são bem estruturados e cobrem ferramentas como Docker e Kubernetes.",
-		avatar: "/assets/img/testimonials/4.png",
+		avatar: "/assets/img/avatars/4.png",
 	},
 	{
 		id: 5,
@@ -36,7 +36,7 @@ export const testimonials = [
 		role: "Analista de Dados",
 		comment:
 			"Aprendi Python e SQL para análise de dados. Excelente conteúdo!",
-		avatar: "/assets/img/testimonials/5.png",
+		avatar: "/assets/img/avatars/5.png",
 	},
 	{
 		id: 6,
@@ -44,7 +44,7 @@ export const testimonials = [
 		role: "Professor de Programação",
 		comment:
 			"Os cursos são detalhados e ajudam a ensinar melhor os alunos.",
-		avatar: "/assets/img/testimonials/6.png",
+		avatar: "/assets/img/avatars/6.png",
 	},
 	{
 		id: 7,
@@ -52,7 +52,7 @@ export const testimonials = [
 		role: "Estudante de Ciência da Computação",
 		comment:
 			"A plataforma é incrível para aprender algoritmos e estruturas de dados.",
-		avatar: "/assets/img/testimonials/7.png",
+		avatar: "/assets/img/avatars/7.png",
 	},
 	{
 		id: 8,
@@ -60,7 +60,7 @@ export const testimonials = [
 		role: "Empreendedor Tech",
 		comment:
 			"Aprendi a desenvolver aplicativos móveis com Flutter. Recomendo!",
-		avatar: "/assets/img/testimonials/8.png",
+		avatar: "/assets/img/avatars/8.png",
 	},
 	{
 		id: 9,
@@ -68,14 +68,14 @@ export const testimonials = [
 		role: "Arquiteta de Software",
 		comment:
 			"Os cursos me ajudaram a projetar sistemas escaláveis e eficientes.",
-		avatar: "/assets/img/testimonials/9.png",
+		avatar: "/assets/img/avatars/9.png",
 	},
 	{
 		id: 10,
 		name: "Gabriel Costa",
 		role: "Engenheiro de Dados",
 		comment: "A experiência foi incrível. Aprendi Spark e Big Data.",
-		avatar: "/assets/img/testimonials/10.png",
+		avatar: "/assets/img/avatars/10.png",
 	},
 ];
 
