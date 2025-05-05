@@ -71,7 +71,7 @@ function App() {
 							/>
 
 							<Route
-								path="courses-single-6/:id"
+								path="courses/:id"
 								element={<CourseSinglePage6 />}
 							/>
 
