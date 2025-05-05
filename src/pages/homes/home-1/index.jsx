@@ -20,9 +20,9 @@ import Preloader from "@/components/common/Preloader";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-	title: "Home-1 || Educrat - Template ReactJS de Cursos Online e Educação Profissional",
+	title: "Meu Curso, Minha Vida",
 	description:
-		"Eleve seu conteúdo de e-learning com o Educrat, o mais impressionante template LMS para cursos online, educação e plataformas LMS.",
+		"Eleve seu conteúdo de e-learning com o Meu Curso, Minha Vida.",
 };
 
 export default function HomePage1() {
