@@ -10,6 +10,7 @@ import Courses from "@/components/homes/courses/Courses";
 import TestimonialsOne from "@/components/common/TestimonialsOne";
 import FeaturesOne from "@/components/homes/features/FeaturesOne";
 import WhyCourse from "@/components/homes/WhyCourse";
+import Highlights from "@/components/homes/highlights/Highlights";
 import Instructors from "@/components/common/Instructors";
 import GetApp from "@/components/homes/getApp/GetApp";
 import Blog from "@/components/homes/blogs/Blog";
@@ -40,6 +41,7 @@ export default function HomePage1() {
 				<TestimonialsOne />
 				<FeaturesOne />
 				<WhyCourse />
+				<Highlights />
 				<Instructors />
 				<GetApp />
 				<Blog />
