@@ -71,7 +71,7 @@ export default function LearnNewSkill() {
 						<div className="about-image">
 							<img
 								style={{ height: "100%", width: "100%" }}
-								src="/assets/img/about/1.png"
+								src="/assets/img/coursesCards/cpp.png"
 								alt="imagem"
 							/>
 						</div>
