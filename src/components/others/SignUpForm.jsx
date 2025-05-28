@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import React from "react";
-
+import Header from "../layout/headers/Header";
 export default function SignUpForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
   return (
+    <div className="form-page">
+    <Header />  
     <div className="form-page__content lg:py-50">
       <div className="container">
         <div className="row justify-center items-center">
@@ -79,6 +81,7 @@ export default function SignUpForm() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
