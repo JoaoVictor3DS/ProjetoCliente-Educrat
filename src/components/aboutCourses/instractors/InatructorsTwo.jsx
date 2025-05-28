@@ -4,7 +4,7 @@ import {
 	rating,
 	sortingOptions,
 	teamMembers,
-} from "@/data/instractors";
+} from "@/data/instructors";
 import PaginationTwo from "@/components/common/PaginationTwo";
 import Star from "@/components/common/Star";
 import { Link } from "react-router-dom";

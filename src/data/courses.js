@@ -19,6 +19,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Médio",
 		desc: "Aprenda React do básico ao avançado, incluindo hooks, context API e integração com APIs REST.",
+		instructorId: 1,
 	},
 	{
 		id: 2,
@@ -40,6 +41,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Fácil",
 		desc: "Domine JavaScript para criar páginas web dinâmicas e interativas. Inclui ES6+ e manipulação de DOM.",
+		instructorId: 3,
 	},
 	{
 		id: 3,
@@ -61,6 +63,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Difícil",
 		desc: "Construa aplicações web robustas com Django, ORM, autenticação, e deploy em produção.",
+		instructorId: 2,
 	},
 	{
 		id: 4,
@@ -82,6 +85,7 @@ export const coursesData = [
 		viewStatus: "Médio",
 		difficulty: "Médio",
 		desc: "Aprenda a criar sistemas completos com PHP e banco de dados MySQL, incluindo autenticação e CRUD.",
+		instructorId: 4,
 	},
 	{
 		id: 5,
@@ -103,6 +107,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Difícil",
 		desc: "Explore análise de dados, visualização, Pandas, Numpy e Machine Learning com Python.",
+		instructorId: 5,
 	},
 	{
 		id: 6,
@@ -124,6 +129,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Médio",
 		desc: "Aprenda Angular, TypeScript, componentes, serviços, rotas e integração com APIs REST.",
+		instructorId: 1,
 	},
 	{
 		id: 7,
@@ -145,6 +151,7 @@ export const coursesData = [
 		viewStatus: "Médio",
 		difficulty: "Fácil",
 		desc: "Desenvolva aplicativos Android modernos com Kotlin, Jetpack e Material Design.",
+		instructorId: 3,
 	},
 	{
 		id: 8,
@@ -166,6 +173,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Médio",
 		desc: "Aprenda algoritmos clássicos, estruturas de dados e programação competitiva em C++.",
+		instructorId: 2,
 	},
 	{
 		id: 9,
@@ -187,6 +195,7 @@ export const coursesData = [
 		viewStatus: "Médio",
 		difficulty: "Fácil",
 		desc: "Crie aplicativos iOS com Swift, UIKit e SwiftUI, do básico ao avançado.",
+		instructorId: 5,
 	},
 	{
 		id: 10,
@@ -208,6 +217,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Médio",
 		desc: "Aprenda análise estatística, gráficos e manipulação de dados com R.",
+		instructorId: 4,
 	},
 	{
 		id: 11,
@@ -229,6 +239,7 @@ export const coursesData = [
 		viewStatus: "Baixo",
 		difficulty: "Fácil",
 		desc: "Explore o universo da computação científica e análise numérica com Julia.",
+		instructorId: 1,
 	},
 	{
 		id: 12,
@@ -250,6 +261,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Difícil",
 		desc: "Crie aplicações completas com backend em PHP e frontend em Vue.js.",
+		instructorId: 2,
 	},
 	{
 		id: 13,
@@ -271,6 +283,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Difícil",
 		desc: "Desenvolva APIs REST, microsserviços e integrações corporativas com Java.",
+		instructorId: 3,
 	},
 	{
 		id: 14,
@@ -292,6 +305,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Médio",
 		desc: "Aprenda a criar APIs RESTful modernas e seguras com Node.js e Express.",
+		instructorId: 5,
 	},
 	{
 		id: 15,
@@ -313,6 +327,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Médio",
 		desc: "Implemente pipelines de integração e entrega contínua usando Docker, GitHub Actions e testes automatizados.",
+		instructorId: 2,
 	},
 	{
 		id: 16,
@@ -334,6 +349,7 @@ export const coursesData = [
 		viewStatus: "Médio",
 		difficulty: "Médio",
 		desc: "Proteja aplicações web contra ataques comuns, como XSS, CSRF e SQL Injection.",
+		instructorId: 4,
 	},
 	{
 		id: 17,
@@ -355,6 +371,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Médio",
 		desc: "Aprenda os fundamentos da criptografia, algoritmos simétricos e assimétricos, e aplicações práticas em segurança da informação.",
+		instructorId: 6,
 	},
 	{
 		id: 18,
@@ -376,6 +393,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Difícil",
 		desc: "Realize testes de invasão em aplicações web, identifique vulnerabilidades e aprenda técnicas de exploração e mitigação.",
+		instructorId: 7,
 	},
 	{
 		id: 19,
@@ -397,6 +415,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Médio",
 		desc: "Entenda os principais protocolos de redes, conceitos de TCP/IP, firewalls, VPNs e práticas de segurança em redes.",
+		instructorId: 8,
 	},
 	{
 		id: 20,
@@ -418,6 +437,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Médio",
 		desc: "Automatize a configuração e o gerenciamento de servidores utilizando Ansible em ambientes de produção.",
+		instructorId: 9,
 	},
 	{
 		id: 21,
@@ -439,6 +459,7 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Difícil",
 		desc: "Implemente, gerencie e escale aplicações em containers usando Docker e Kubernetes em ambientes reais.",
+		instructorId: 10,
 	},
 	{
 		id: 22,
@@ -460,6 +481,7 @@ export const coursesData = [
 		viewStatus: "Médio",
 		difficulty: "Fácil",
 		desc: "Aprenda os princípios de UX/UI aplicados ao desenvolvimento de interfaces web e mobile.",
+		instructorId: 11,
 	},
 	{
 		id: 23,
@@ -481,6 +503,7 @@ export const coursesData = [
 		viewStatus: "Baixo",
 		difficulty: "Fácil",
 		desc: "Crie animações modernas para web utilizando CSS3 e JavaScript de forma prática e divertida.",
+		instructorId: 12,
 	},
 	{
 		id: 24,
@@ -502,6 +525,7 @@ export const coursesData = [
 		viewStatus: "Baixo",
 		difficulty: "Fácil",
 		desc: "Aprenda conceitos básicos de fotografia digital para criar imagens de alta qualidade para seus projetos.",
+		instructorId: 13,
 	},
 	{
 		id: 25,
@@ -523,6 +547,7 @@ export const coursesData = [
 		viewStatus: "Médio",
 		difficulty: "Médio",
 		desc: "Desenvolva habilidades de escrita técnica para criar documentações claras e eficientes para projetos de software.",
+		instructorId: 14,
 	},
 	{
 		id: 26,
@@ -544,6 +569,7 @@ export const coursesData = [
 		viewStatus: "Bom",
 		difficulty: "Médio",
 		desc: "Aprenda a criar artes digitais para jogos, aplicativos e interfaces utilizando ferramentas modernas.",
+		instructorId: 15,
 	},
 	{
 		id: 27,
@@ -565,17 +591,30 @@ export const coursesData = [
 		viewStatus: "Ótimo",
 		difficulty: "Difícil",
 		desc: "Aprofunde-se em algoritmos avançados, grafos, programação dinâmica e otimização com Python.",
+		instructorId: 16,
 	},
-];
-
-export const catagories = [
-	"Todas as Categorias",
-	"Animação",
-	"Design",
-	"Fotografia",
-	"Arte",
-	"Programação",
-	"Escrita",
+	{
+		id: 28,
+		imageSrc: "/assets/img/coursesCards/crypto.png",
+		authorImageSrc: "/assets/img/general/avatar-1.png",
+		title: "Criptografia Aplicada para Desenvolvedores",
+		rating: 4.7,
+		ratingCount: 350,
+		lessonCount: 12,
+		duration: 500,
+		level: "Intermediário",
+		originalPrice: 249,
+		discountedPrice: 129,
+		paid: true,
+		category: "Cibersegurança",
+		state: "Popular",
+		languange: "Português",
+		authorName: "Lucas Martins",
+		viewStatus: "Ótimo",
+		difficulty: "Médio",
+		desc: "Aprenda criptografia prática, algoritmos modernos e aplicações reais em segurança da informação.",
+		instructorId: 6,
+	},
 ];
 
 export const courseStates = ["Todos", "Destaque", "Popular", "Tendência"];
@@ -641,14 +680,6 @@ export const tags = [
 	{ id: 6, href: "#", name: "Treinamento" },
 ];
 
-export const instractorNames = [
-	{ id: 1, title: "Jane Cooper" },
-	{ id: 2, title: "Jenny Wilson" },
-	{ id: 3, title: "Robert Fox" },
-	{ id: 4, title: "Jacob Jones" },
-	{ id: 5, title: "Albert Flores" },
-];
-
 export const languages = [
 	{ id: 1, title: "Inglês" },
 	{ id: 2, title: "Português" },
@@ -689,6 +720,25 @@ export const duration = [
 	{ id: 2, title: "4 - 7 horas", range: [240, 419] },
 	{ id: 3, title: "7 - 18 horas", range: [420, 1079] },
 	{ id: 4, title: "20+ horas", range: [1080, 5000] },
+];
+
+export const instructorNames = [
+	{ id: 1, title: "Jane Cooper" },
+	{ id: 2, title: "Jenny Wilson" },
+	{ id: 3, title: "Robert Fox" },
+	{ id: 4, title: "Jacob Jones" },
+	{ id: 5, title: "Albert Flores" },
+	{ id: 6, title: "Lucas Martins" },
+	{ id: 7, title: "Fernanda Souza" },
+	{ id: 8, title: "Marina Lima" },
+	{ id: 9, title: "Carlos Mendes" },
+	{ id: 10, title: "Patrícia Souza" },
+	{ id: 11, title: "Bruno Silva" },
+	{ id: 12, title: "Ana Paula" },
+	{ id: 13, title: "Eduardo Ramos" },
+	{ id: 14, title: "Mariana Lopes" },
+	{ id: 15, title: "Rafael Nunes" },
+	{ id: 16, title: "Gabriel Costa" },
 ];
 
 export const sortingOptions = [

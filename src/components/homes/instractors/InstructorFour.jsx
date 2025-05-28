@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function InstractorFour() {
+export default function InstructorFour() {
 	return (
 		<section className="layout-pt-lg layout-pb-lg">
 			<div className="container">

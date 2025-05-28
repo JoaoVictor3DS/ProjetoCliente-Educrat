@@ -1,6 +1,6 @@
 import React from "react";
 
-import { teachers, marketingCoordinator } from "../../../data/instractors";
+import { teachers, marketingCoordinator } from "../../../data/instructors";
 import { teachingFeatures } from "../../../data/features";
 import { Link } from "react-router-dom";
 export default function Teachers() {

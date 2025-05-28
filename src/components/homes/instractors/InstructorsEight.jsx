@@ -5,9 +5,9 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 import { useEffect, useState } from "react";
-import { instractorsEight } from "@/data/instractors";
+import { instructorsEight } from "@/data/instructors";
 import { Link } from "react-router-dom";
-export default function InstractorsEight() {
+export default function InstructorsEight() {
 	const [showSlider, setShowSlider] = useState(false);
 	useEffect(() => {
 		setShowSlider(true);
@@ -48,7 +48,7 @@ export default function InstractorsEight() {
 
 									modules={[Navigation, Pagination]}
 									pagination={{
-										el: ".pagination-instractors-eight",
+										el: ".pagination-instructors-eight",
 										clickable: true,
 									}}
 									navigation={{
@@ -76,7 +76,7 @@ export default function InstractorsEight() {
 									}}
 									loop={true}
 								>
-									{instractorsEight.map((elm, i) => (
+									{instructorsEight.map((elm, i) => (
 										<SwiperSlide key={i}>
 											<div className="swiper-slide">
 												<div className="d-flex flex-column items-center">
@@ -141,7 +141,7 @@ export default function InstractorsEight() {
 
 							<div className="d-flex justify-center x-gap-15 items-center pt-60 lg:pt-40">
 								<div className="col-auto">
-									<div className="pagination -arrows js-pagination pagination-instractors-eight"></div>
+									<div className="pagination -arrows js-pagination pagination-instructors-eight"></div>
 								</div>
 							</div>
 						</div>

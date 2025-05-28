@@ -755,7 +755,7 @@ export const featuredTracher = {
 	imgSrc: "/assets/img/home-7/courses/1.png",
 };
 
-export const instractorsEight = [
+export const instructorsEight = [
 	{
 		id: 46,
 		image: "/assets/img/speakers/1.png",
@@ -845,7 +845,7 @@ export const instractorsEight = [
 	},
 ];
 
-export const instractorsNine = [
+export const instructorsNine = [
 	{
 		id: 49,
 		name: "Floyd Miles",
@@ -1249,3 +1249,299 @@ export const populerTags = [
 ];
 
 export const sortingOptions = ["Padrão", "Avaliação (asc)", "Avaliação (desc)"];
+
+export const instructors = [
+	{
+		id: 1,
+		name: "Jane Cooper",
+		role: "Especialista em Frontend e React",
+		bio: "Desenvolvedora Frontend com 10 anos de experiência em React, Angular e Vue. Apaixonada por ensinar e criar interfaces modernas.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Frontend",
+		rating: 4.8,
+		reviews: 2100,
+		students: 3500,
+		courses: 4,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/janecooper",
+			},
+			{ icon: "icon-github", url: "https://github.com/janecooper" },
+			{ icon: "icon-twitter", url: "https://twitter.com/janecooper" },
+		],
+	},
+	{
+		id: 2,
+		name: "Jenny Wilson",
+		role: "Especialista em Backend e Fullstack",
+		bio: "Engenheira de Software focada em backend com Django, Node.js e PHP. Atua também como instrutora de cursos fullstack.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Backend",
+		rating: 4.7,
+		reviews: 1800,
+		students: 3200,
+		courses: 5,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/jennywilson",
+			},
+			{ icon: "icon-github", url: "https://github.com/jennywilson" },
+		],
+	},
+	{
+		id: 3,
+		name: "Robert Fox",
+		role: "Instrutor de JavaScript e Mobile",
+		bio: "Especialista em JavaScript, Kotlin e desenvolvimento mobile. Atua há mais de 8 anos no mercado de apps.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Mobile",
+		rating: 4.6,
+		reviews: 1500,
+		students: 2800,
+		courses: 3,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/robertfox",
+			},
+			{ icon: "icon-github", url: "https://github.com/robertfox" },
+		],
+	},
+	{
+		id: 4,
+		name: "Jacob Jones",
+		role: "Especialista em PHP, R e Segurança",
+		bio: "Desenvolvedor backend e cientista de dados, com experiência em PHP, R e práticas de segurança web.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Backend/Data Science",
+		rating: 4.5,
+		reviews: 1200,
+		students: 2100,
+		courses: 4,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/jacobjones",
+			},
+		],
+	},
+	{
+		id: 5,
+		name: "Albert Flores",
+		role: "Instrutor de Python, Data Science e Node.js",
+		bio: "Especialista em Python, Data Science e APIs modernas. Atua em projetos de machine learning e backend.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Data Science/Backend",
+		rating: 4.9,
+		reviews: 2500,
+		students: 4000,
+		courses: 6,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/albertflores",
+			},
+			{ icon: "icon-github", url: "https://github.com/albertflores" },
+		],
+	},
+	{
+		id: 6,
+		name: "Lucas Martins",
+		role: "Especialista em Criptografia e Segurança",
+		bio: "Profissional de cibersegurança com foco em criptografia, pentest e segurança de aplicações web.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Cibersegurança",
+		rating: 4.7,
+		reviews: 900,
+		students: 1700,
+		courses: 2,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/lucasmartins",
+			},
+		],
+	},
+	{
+		id: 7,
+		name: "Fernanda Souza",
+		role: "Especialista em Pentest e Segurança Web",
+		bio: "Consultora de segurança da informação, instrutora de pentest e práticas de mitigação de vulnerabilidades.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Cibersegurança",
+		rating: 4.8,
+		reviews: 1100,
+		students: 2000,
+		courses: 2,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/fernandasouza",
+			},
+		],
+	},
+	{
+		id: 8,
+		name: "Marina Lima",
+		role: "Instrutora de Redes e Segurança",
+		bio: "Especialista em redes de computadores, protocolos TCP/IP, firewalls e VPNs.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Cibersegurança",
+		rating: 4.6,
+		reviews: 800,
+		students: 1500,
+		courses: 1,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/marinalima",
+			},
+		],
+	},
+	{
+		id: 9,
+		name: "Carlos Mendes",
+		role: "Especialista em DevOps e Automação",
+		bio: "DevOps Engineer com experiência em automação de infraestrutura, Docker, Kubernetes e Ansible.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "DevOps",
+		rating: 4.7,
+		reviews: 950,
+		students: 1800,
+		courses: 2,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/carlosmendes",
+			},
+		],
+	},
+	{
+		id: 10,
+		name: "Patrícia Souza",
+		role: "Especialista em Containers e Orquestração",
+		bio: "Instrutora de Docker, Kubernetes e práticas modernas de DevOps para ambientes de produção.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "DevOps",
+		rating: 4.9,
+		reviews: 1200,
+		students: 2200,
+		courses: 2,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/patriciasouza",
+			},
+		],
+	},
+	{
+		id: 11,
+		name: "Bruno Silva",
+		role: "Instrutor de UX/UI Design",
+		bio: "Designer de interfaces digitais, especialista em UX/UI para web e mobile.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Design",
+		rating: 4.5,
+		reviews: 700,
+		students: 1300,
+		courses: 1,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/brunosilva",
+			},
+		],
+	},
+	{
+		id: 12,
+		name: "Ana Paula",
+		role: "Instrutora de Animação Web",
+		bio: "Especialista em animações CSS e JavaScript para interfaces modernas.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Animação",
+		rating: 4.3,
+		reviews: 500,
+		students: 900,
+		courses: 1,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/anapaula",
+			},
+		],
+	},
+	{
+		id: 13,
+		name: "Eduardo Ramos",
+		role: "Instrutor de Fotografia Digital",
+		bio: "Fotógrafo profissional e instrutor de fotografia digital para desenvolvedores.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Fotografia",
+		rating: 4.2,
+		reviews: 400,
+		students: 800,
+		courses: 1,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/eduardoramos",
+			},
+		],
+	},
+	{
+		id: 14,
+		name: "Mariana Lopes",
+		role: "Instrutora de Escrita Técnica",
+		bio: "Especialista em documentação de software e escrita técnica para projetos de TI.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Escrita",
+		rating: 4.4,
+		reviews: 600,
+		students: 1000,
+		courses: 1,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/marianalopes",
+			},
+		],
+	},
+	{
+		id: 15,
+		name: "Rafael Nunes",
+		role: "Instrutor de Arte Digital",
+		bio: "Artista digital especializado em artes para jogos, aplicativos e interfaces.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Arte",
+		rating: 4.6,
+		reviews: 650,
+		students: 1100,
+		courses: 1,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/rafaelnunes",
+			},
+		],
+	},
+	{
+		id: 16,
+		name: "Gabriel Costa",
+		role: "Instrutor de Algoritmos Avançados",
+		bio: "Especialista em algoritmos, grafos e programação dinâmica com Python.",
+		image: "/assets/img/general/avatar-1.png",
+		category: "Algoritmos",
+		rating: 4.7,
+		reviews: 700,
+		students: 1200,
+		courses: 1,
+		socialProfile: [
+			{
+				icon: "icon-linkedin",
+				url: "https://www.linkedin.com/in/gabrielcosta",
+			},
+		],
+	},
+];

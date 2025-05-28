@@ -6,12 +6,12 @@ const categories = [
 	{ label: "Negócios" },
 ];
 import React, { useState, useEffect } from "react";
-import { teamMembers, sortingOptions } from "@/data/instractors";
+import { teamMembers, sortingOptions } from "@/data/instructors";
 
 import PaginationTwo from "@/components/common/PaginationTwo";
 
 import { Link } from "react-router-dom";
-export default function Instractors() {
+export default function Instructors() {
 	const [currentCategory, setCurrentCategory] = useState(
 		"Todas as Categorias"
 	);

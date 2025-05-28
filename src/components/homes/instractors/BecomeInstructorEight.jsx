@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-export default function BecomeInstractoeEight() {
+export default function BecomeInstructorEight() {
 	return (
 		<section className="layout-pt-lg layout-pb-md">
 			<div className="container">

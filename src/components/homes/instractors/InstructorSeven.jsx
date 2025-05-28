@@ -1,7 +1,7 @@
 import React from "react";
-import { featuredTracher } from "../../../data/instractors";
+import { featuredTracher } from "../../../data/instructors";
 
-export default function InstractorSeven() {
+export default function InstructorSeven() {
 	return (
 		<section className="layout-pt-lg layout-pb-md bg-light-4">
 			<div className="container">

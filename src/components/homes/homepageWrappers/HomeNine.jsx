@@ -9,7 +9,7 @@ import CoursesFive from "../courses/CoursesFive";
 import StepsOne from "../../common/StepsOne";
 import Instructors from "../../common/Instructors";
 import Books from "../books/Books";
-import InstractorsNine from "../instractors/InstractorsNine";
+import InstructorsNine from "../instructors/InstructorsNine";
 import Testimonials from "../testimonials/Testimonials";
 import JoinNine from "../join/JoinNine";
 import Brands from "../../common/Brands";
@@ -66,7 +66,7 @@ export default function HomeNine() {
 								<StepsOne />
 								<Instructors />
 								<Books />
-								<InstractorsNine />
+								<InstructorsNine />
 								<Testimonials backgroundComponent={"whiteBg"} />
 								<JoinNine />
 								<Brands />

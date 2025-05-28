@@ -2,7 +2,7 @@ import {
 	categories,
 	coursesData,
 	duration,
-	instractorNames,
+	instructorNames,
 	languages,
 	levels,
 	prices,
@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 export default function CourseListSix() {
 	const [categoryOpen, setCategoryOpen] = useState(true);
 	const [ratingOpen, setRatingOpen] = useState(true);
-	const [instractorOpen, setInstractorOpen] = useState(true);
+	const [instructorOpen, setInstructorOpen] = useState(true);
 	const [priceOpen, setPriceOpen] = useState(true);
 	const [levelOpen, setLevelOpen] = useState(true);
 	const [openLanguage, setOpenLanguage] = useState(true);
@@ -27,7 +27,7 @@ export default function CourseListSix() {
 
 	const [filterCategories, setFilterCategories] = useState([]);
 	const [filterRatingRange, setFilterRatingRange] = useState([]);
-	const [filterInstractors, setFilterInstractors] = useState([]);
+	const [filterInstructors, setFilterInstructors] = useState([]);
 	const [filterPrice, setFilterPrice] = useState("All");
 	const [filterLevels, setFilterLevels] = useState([]);
 	const [filterlanguange, setFilterlanguange] = useState([]);
@@ -54,9 +54,9 @@ export default function CourseListSix() {
 
 		let filteredArrays = [];
 
-		if (filterInstractors.length > 0) {
+		if (filterInstructors.length > 0) {
 			const filtered = refItems.filter((elm) =>
-				filterInstractors.includes(elm.authorName)
+				filterInstructors.includes(elm.authorName)
 			);
 			filteredArrays = [...filteredArrays, filtered];
 		}
@@ -103,7 +103,7 @@ export default function CourseListSix() {
 	}, [
 		filterCategories,
 		filterRatingRange,
-		filterInstractors,
+		filterInstructors,
 		filterPrice,
 		filterLevels,
 		filterlanguange,
@@ -155,12 +155,12 @@ export default function CourseListSix() {
 	const handleFilterRatingRange = (item) => {
 		setFilterRatingRange(item);
 	};
-	const handleFilterInstractors = (item) => {
-		if (filterInstractors.includes(item)) {
-			const filtered = filterInstractors.filter((elm) => elm != item);
-			setFilterInstractors([...filtered]);
+	const handleFilterInstructors = (item) => {
+		if (filterInstructors.includes(item)) {
+			const filtered = filterInstructors.filter((elm) => elm != item);
+			setFilterInstructors([...filtered]);
 		} else {
-			setFilterInstractors((pre) => [...pre, item]);
+			setFilterInstructors((pre) => [...pre, item]);
 		}
 	};
 	const handleFilterPrice = (item) => {
@@ -483,7 +483,7 @@ export default function CourseListSix() {
 									<div className="accordion js-accordion">
 										<div
 											className={`accordion__item js-accordion-item-active ${
-												instractorOpen
+												instructorOpen
 													? "is-active"
 													: ""
 											} `}
@@ -491,7 +491,7 @@ export default function CourseListSix() {
 											<div
 												className="accordion__button items-center"
 												onClick={() =>
-													setInstractorOpen(
+													setInstructorOpen(
 														(pre) => !pre
 													)
 												}
@@ -509,7 +509,7 @@ export default function CourseListSix() {
 											<div
 												className="accordion__content"
 												style={
-													instractorOpen
+													instructorOpen
 														? { maxHeight: "350px" }
 														: {}
 												}
@@ -519,7 +519,7 @@ export default function CourseListSix() {
 														<div
 															className="sidebar-checkbox__item"
 															onClick={() =>
-																setFilterInstractors(
+																setFilterInstructors(
 																	[]
 																)
 															}
@@ -529,7 +529,7 @@ export default function CourseListSix() {
 																	type="checkbox"
 																	readOnly
 																	checked={
-																		filterInstractors.length
+																		filterInstructors.length
 																			? false
 																			: true
 																	}
@@ -544,13 +544,13 @@ export default function CourseListSix() {
 															</div>
 															<div className="sidebar-checkbox__count"></div>
 														</div>
-														{instractorNames.map(
+														{instructorNames.map(
 															(elm, i) => (
 																<div
 																	key={i}
 																	className="sidebar-checkbox__item cursor"
 																	onClick={() =>
-																		handleFilterInstractors(
+																		handleFilterInstructors(
 																			elm.title
 																		)
 																	}
@@ -560,7 +560,7 @@ export default function CourseListSix() {
 																			type="checkbox"
 																			readOnly
 																			checked={
-																				filterInstractors.includes(
+																				filterInstructors.includes(
 																					elm.title
 																				)
 																					? true
@@ -1446,7 +1446,7 @@ export default function CourseListSix() {
 														<div
 															className="sidebar-checkbox__item"
 															onClick={() =>
-																setFilterInstractors(
+																setFilterInstructors(
 																	[]
 																)
 															}
@@ -1456,7 +1456,7 @@ export default function CourseListSix() {
 																	type="checkbox"
 																	readOnly
 																	checked={
-																		filterInstractors.length
+																		filterInstructors.length
 																			? false
 																			: true
 																	}
@@ -1471,13 +1471,13 @@ export default function CourseListSix() {
 															</div>
 															<div className="sidebar-checkbox__count"></div>
 														</div>
-														{instractorNames.map(
+														{instructorNames.map(
 															(item, index) => (
 																<div
 																	className="sidebar-checkbox__item cursor"
 																	key={index}
 																	onClick={() =>
-																		handleFilterInstractors(
+																		handleFilterInstructors(
 																			item.title
 																		)
 																	}
@@ -1487,7 +1487,7 @@ export default function CourseListSix() {
 																			type="checkbox"
 																			readOnly
 																			checked={
-																				filterInstractors.includes(
+																				filterInstructors.includes(
 																					item.title
 																				)
 																					? true

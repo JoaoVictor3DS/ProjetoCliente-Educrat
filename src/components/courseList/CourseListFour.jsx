@@ -1,8 +1,8 @@
 import {
-	categories,
 	coursesData,
+	categories,
+	instructorNames,
 	duration,
-	instractorNames,
 	languages,
 	levels,
 	prices,
@@ -18,7 +18,7 @@ import PaginationTwo from "../common/PaginationTwo";
 export default function CourseListFour() {
 	const [filterCategories, setFilterCategories] = useState([]);
 	const [filterRatingRange, setFilterRatingRange] = useState([]);
-	const [filterInstractors, setFilterInstractors] = useState([]);
+	const [filterInstructors, setFilterInstructors] = useState([]);
 	const [filterPrice, setFilterPrice] = useState("All");
 	const [filterLevels, setFilterLevels] = useState([]);
 	const [filterlanguange, setFilterlanguange] = useState([]);
@@ -45,9 +45,9 @@ export default function CourseListFour() {
 
 		let filteredArrays = [];
 
-		if (filterInstractors.length > 0) {
+		if (filterInstructors.length > 0) {
 			const filtered = refItems.filter((elm) =>
-				filterInstractors.includes(elm.authorName)
+				filterInstructors.includes(elm.authorName)
 			);
 			filteredArrays = [...filteredArrays, filtered];
 		}
@@ -94,7 +94,7 @@ export default function CourseListFour() {
 	}, [
 		filterCategories,
 		filterRatingRange,
-		filterInstractors,
+		filterInstructors,
 		filterPrice,
 		filterLevels,
 		filterlanguange,
@@ -153,11 +153,11 @@ export default function CourseListFour() {
 			.getElementById("dd53content")
 			.classList.toggle("-is-el-visible");
 	};
-	const handleFilterInstractors = (item) => {
-		if (filterInstractors.includes(item)) {
-			setFilterInstractors([]);
+	const handleFilterInstructors = (item) => {
+		if (filterInstructors.includes(item)) {
+			setFilterInstructors([]);
 		} else {
-			setFilterInstractors([item]);
+			setFilterInstructors([item]);
 		}
 		document.getElementById("dd54button").classList.toggle("-is-dd-active");
 		document
@@ -460,8 +460,8 @@ export default function CourseListFour() {
 											data-el-toggle-active=".js-instructors-active"
 										>
 											<span className="js-dropdown-title">
-												{filterInstractors.length
-													? filterInstractors[0]
+												{filterInstructors.length
+													? filterInstructors[0]
 													: "Instrutores"}
 											</span>
 											<i className="icon text-9 ml-40 icon-chevron-down"></i>
@@ -474,7 +474,7 @@ export default function CourseListFour() {
 											<div className="text-14 y-gap-15 js-dropdown-list">
 												<div
 													onClick={() => {
-														setFilterInstractors(
+														setFilterInstructors(
 															[]
 														);
 														document
@@ -495,7 +495,7 @@ export default function CourseListFour() {
 												>
 													<span
 														className={`d-block js-dropdown-link cursor ${
-															filterInstractors.length ==
+															filterInstructors.length ==
 															0
 																? "activeMenu"
 																: ""
@@ -504,19 +504,19 @@ export default function CourseListFour() {
 														All
 													</span>
 												</div>
-												{instractorNames.map(
+												{instructorNames.map(
 													(elm, i) => (
 														<div
 															key={i}
 															onClick={() =>
-																handleFilterInstractors(
+																handleFilterInstructors(
 																	elm.title
 																)
 															}
 														>
 															<span
 																className={`d-block js-dropdown-link cursor ${
-																	filterInstractors[0] ==
+																	filterInstructors[0] ==
 																	elm.title
 																		? "activeMenu"
 																		: ""

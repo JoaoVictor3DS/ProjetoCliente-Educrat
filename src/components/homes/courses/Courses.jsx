@@ -1,6 +1,6 @@
 import React from "react";
 import CourceCard from "../courseCards/CourseCard";
-import { coursesData, catagories } from "../../../data/courses";
+import { coursesData, allCategories } from "../../../data/courses";
 import { useState, useEffect } from "react";
 export default function Courses() {
 	const [filtered, setFiltered] = useState();
@@ -33,7 +33,7 @@ export default function Courses() {
 				</div>
 			</div>
 			<div className="tabs__controls flex-wrap  pt-50 d-flex justify-center x-gap-10 js-tabs-controls">
-				{catagories.map((elm, i) => (
+				{allCategories.map((elm, i) => (
 					<div onClick={() => setCategory(elm)} key={i}>
 						<button
 							className={`tabs__button px-15 py-8 rounded-8 js-tabs-button ${

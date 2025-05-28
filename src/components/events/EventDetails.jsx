@@ -1,7 +1,7 @@
 import React from "react";
 import { events, learnList, eventContent } from "@/data/events";
 import Socials from "../common/Socials";
-import { instractorsNine } from "@/data/instractors";
+import { instructorsNine } from "@/data/instructors";
 import Star from "../common/Star";
 import { Link } from "react-router-dom";
 import { useContextElement } from "@/context/Context";
@@ -182,7 +182,7 @@ export default function EventDetails({ id }) {
 									Nossos Palestrantes
 								</h4>
 								<div className="row y-gap-30">
-									{instractorsNine
+									{instructorsNine
 										.slice(0, 4)
 										.map((elm, i) => (
 											<div

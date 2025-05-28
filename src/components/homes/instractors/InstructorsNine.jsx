@@ -1,7 +1,7 @@
 import React from "react";
-import { instractorsNine } from "../../../data/instractors";
+import { instructorsNine } from "../../../data/instructors";
 import { Link } from "react-router-dom";
-export default function InstractorsNine() {
+export default function InstructorsNine() {
 	return (
 		<section className="layout-pt-md layout-pb-md">
 			<div className="container">
@@ -39,7 +39,7 @@ export default function InstractorsNine() {
 				</div>
 
 				<div className="row y-gap-30 pt-60 lg:pt-40">
-					{instractorsNine.map((elm, i) => (
+					{instructorsNine.map((elm, i) => (
 						<div
 							key={i}
 							className="col-xl-2 col-lg-3 col-md-4 col-sm-6"

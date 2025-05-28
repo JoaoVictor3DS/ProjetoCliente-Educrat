@@ -4,21 +4,21 @@ import React, { useState, useEffect } from "react";
 import {
 	teamMembers,
 	teamMembersFull,
-	instractorsEight,
-	instractorsNine,
+	instructorsEight,
+	instructorsNine,
 	marketingCoordinator,
-} from "@/data/instractors";
+} from "@/data/instructors";
 
 import { Link } from "react-router-dom";
-export default function InstractorSingle({ id }) {
+export default function InstructorSingle({ id }) {
 	const [activeTab, setActiveTab] = useState(1);
 	const [pageItem, setPageItem] = useState(teamMembers[0]);
 	useEffect(() => {
 		const filtered = [
 			...teamMembers,
 			...teamMembersFull,
-			...instractorsEight,
-			...instractorsNine,
+			...instructorsEight,
+			...instructorsNine,
 			marketingCoordinator,
 		].filter((elm) => elm.id == id)[0];
 
