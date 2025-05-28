@@ -132,7 +132,7 @@ const CourseCart = () => {
 					{!cartCourses.length && (
 						<>
 							<Link
-								to={"/courses-list-1"}
+								to={"/courses-list-4"}
 								style={{ textDecoration: "none" }}
 								className="col-12"
 							>
