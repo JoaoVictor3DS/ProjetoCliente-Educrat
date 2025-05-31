@@ -23,8 +23,8 @@ export default function Header() {
 										<img
 											src="/assets/img/general/logo.svg"
 											alt="logo"
-											width="70px"
-											height="70px"
+											width="60px"
+											height="60px"
 										/>
 									</Link>
 								</div>

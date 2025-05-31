@@ -4255,7 +4255,7 @@ h1, h2, h3, h4, h5, h6 {
 .header.-type-1 .header__container {
   position: relative;
   max-width: calc(1500px);
-  padding: 20px 0;
+  padding: 5px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
