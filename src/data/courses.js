@@ -331,7 +331,7 @@ export const coursesData = [
 	},
 	{
 		id: 16,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/security.png",
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Segurança Web: Práticas Essenciais",
 		rating: 4.4,
@@ -353,7 +353,7 @@ export const coursesData = [
 	},
 	{
 		id: 17,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/crypto.png",
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Introdução à Criptografia Moderna",
 		rating: 4.6,
@@ -375,7 +375,7 @@ export const coursesData = [
 	},
 	{
 		id: 18,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/pentest.png", // imagem coerente para Pentest
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Pentest: Testes de Invasão em Aplicações Web",
 		rating: 4.8,
@@ -397,7 +397,7 @@ export const coursesData = [
 	},
 	{
 		id: 19,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/networks.png", // imagem coerente para redes
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Redes de Computadores: Protocolos e Segurança",
 		rating: 4.3,
@@ -419,7 +419,7 @@ export const coursesData = [
 	},
 	{
 		id: 20,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/ansible.png", // imagem coerente para Ansible
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Automação de Infraestrutura com Ansible",
 		rating: 4.5,
@@ -441,7 +441,7 @@ export const coursesData = [
 	},
 	{
 		id: 21,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/docker_k8s.png", // imagem coerente para Docker e Kubernetes
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Docker e Kubernetes: Orquestração de Containers",
 		rating: 4.9,
@@ -485,7 +485,7 @@ export const coursesData = [
 	},
 	{
 		id: 23,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/animation.png", // imagem coerente para animação
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Introdução à Animação com CSS e JavaScript",
 		rating: 4.0,
@@ -507,29 +507,29 @@ export const coursesData = [
 	},
 	{
 		id: 24,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/ai.png", // já está coerente para IA
 		authorImageSrc: "/assets/img/general/avatar-1.png",
-		title: "Fotografia Digital para Desenvolvedores",
-		rating: 4.1,
-		ratingCount: 150,
-		lessonCount: 7,
-		duration: 280,
-		level: "Iniciante",
-		originalPrice: 89,
-		discountedPrice: 29,
+		title: "Inteligência Artificial com Python",
+		rating: 4.6,
+		ratingCount: 420,
+		lessonCount: 12,
+		duration: 480,
+		level: "Intermediário",
+		originalPrice: 189,
+		discountedPrice: 89,
 		paid: true,
-		category: "Fotografia",
+		category: "Data Science",
 		state: "Destaque",
 		languange: "Português",
 		authorName: "Eduardo Ramos",
-		viewStatus: "Baixo",
-		difficulty: "Fácil",
-		desc: "Aprenda conceitos básicos de fotografia digital para criar imagens de alta qualidade para seus projetos.",
+		viewStatus: "Bom",
+		difficulty: "Médio",
+		desc: "Aprenda os fundamentos de IA, machine learning supervisionado e não supervisionado, e implemente projetos práticos com Python.",
 		instructorId: 13,
 	},
 	{
 		id: 25,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/writing.png", // imagem coerente para escrita técnica
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Escrita Técnica para Documentação de Software",
 		rating: 4.3,
@@ -551,7 +551,7 @@ export const coursesData = [
 	},
 	{
 		id: 26,
-		imageSrc: "/assets/img/coursesCards/js.png",
+		imageSrc: "/assets/img/coursesCards/art.png", // imagem coerente para arte digital
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "Arte Digital para Jogos e Aplicativos",
 		rating: 4.5,
@@ -664,7 +664,6 @@ export const allCategories = [
 	"Data Science",
 	"Design",
 	"Animação",
-	"Fotografia",
 	"Arte",
 	"Escrita",
 ];
