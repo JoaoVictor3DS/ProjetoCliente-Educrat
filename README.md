@@ -280,6 +280,12 @@ Este projeto é um template ReactJS para cursos de educação online. Todas as a
     - Atualizados nomes de autores e descrições conforme o idioma do curso.
     - **Arquivos alterados:**
         - `src/data/courses.js`
+
+33. **Aprimora seção de Eventos**
+    - Adiciona novos eventos.
+    - Corrige compatibilidade entre os eventos e as páginas de eventos.
+    - **Arquivos alterados:**
+        - `src/data/events.js`
 ---
 
 **Last update:** May 31, 2025
