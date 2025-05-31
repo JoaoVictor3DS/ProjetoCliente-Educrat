@@ -168,6 +168,11 @@ This project is a ReactJS template for online education courses. The following c
     - **Files changed:**
         - `src/pages/others/login/index.jsx`
         - `src/components/others/LoginForm.jsx`
+40. **Header and logo size adjustment**
+    - Changed header and logo size for better visual balance.
+    - **Files changed:**
+        - `public/assets/css/main.css`
+        - `src/components/layout/headers/Header.jsx`
 ---
 
 ## [Português]
@@ -344,6 +349,13 @@ Este projeto é um template ReactJS para cursos de educação online. Todas as a
     - **Arquivos alterados:**
         - `src/pages/others/login/index.jsx`
         - `src/components/others/LoginForm.jsx`
+
+40. **Alteração do tamanho do cabeçalho e logo**
+    - Adição de elementos não utilizados e correção do texto de Sign Up 
+    - **Arquivos alterados:**
+        - `public/assets/css/main.css`
+        - `src/components/layout/headers/Header.jsx`
+
 ---
 
 **Last update:** May 31, 2025
