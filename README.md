@@ -4,9 +4,9 @@
 
 ### Overview
 
-This project is a ReactJS template for online education courses. The following changes were made to simplify and optimize the template:
+This project is a ReactJS template for online education courses. The following changes were made to simplify, optimize, and modernize the template. All changes are listed in sequence, with file paths for each modification, addition, or removal, including the most recent updates.
 
-### Changes Summary:
+### Changes Summary (Chronological)
 
 1. **Home Pages**: Retained only **Home 1** and removed all other home pages.
     - Removed paths:
@@ -42,6 +42,9 @@ This project is a ReactJS template for online education courses. The following c
     - Removed paths:
         - `src/pages/eventSing.jsx`
 8. **Menu**: Adjusted the menu to use buttons only for navigation.
+    - Modified paths:
+        - `src/components/layout/component/Menu.jsx`
+        - `src/components/layout/component/MobileMenu.jsx`
 9. **Single Course Pages**: Retained only **courses-single-6** and removed all other single course pages.
     - Removed paths:
         - `src/pages/courses-single-1.jsx`
@@ -53,13 +56,23 @@ This project is a ReactJS template for online education courses. The following c
     - Removed paths:
         - `src/pages/instructors.jsx`
 11. **Footer Links**: Updated the footer links to reflect the retained pages and sections.
+    - Modified paths:
+        - `src/components/layout/component/FooterLinks.jsx`
+        - `src/data/footerLinks.js`
 12. **Mobile Menu**: Updated the mobile menu to display only buttons with active states.
+    - Modified paths:
+        - `src/components/layout/component/MobileMenu.jsx`
 13. **404 Page**: Fixed the "Go to Home" button to correctly link to the home page.
+    - Modified paths:
+        - `src/components/not-found/NotFound.jsx`
 14. **Code Formatting**: Reformatted various files for consistency and readability.
+    - Modified paths: (multiple files, see git log)
 15. **Header Components**: Removed the `HeaderExplore` component from `HeaderSeven.jsx`.
     - Modified paths:
         - `src/components/layout/headers/HeaderSeven.jsx`
 16. **Project Logo**: Updated the project logo to reflect the new branding. The logo file is located at `public/assets/img/logo.png`.
+    - Modified paths:
+        - `public/assets/img/logo.png`
 17. **Testimonials Section**: Updated the title in the `TestimonialsOne` component to "Depoimento de alunos".
     - Modified paths:
         - `src/components/common/TestimonialsOne.jsx`
@@ -104,16 +117,37 @@ This project is a ReactJS template for online education courses. The following c
 28. **Index Page**: Updated metadata for the main index page.
     - Modified paths:
         - `src/pages/index.jsx`
-
+29. **Course Data Refactor (2025)**
+    - Removed the "Photography" category and all photography courses.
+    - Added new technology-focused courses (AI, DevOps, Security, Writing, etc.).
+    - Updated and translated course titles and descriptions; set the `languange` and `authorName` fields for each course.
+    - Marked selected courses as being in English, with translated content.
+    - **Files changed:**
+        - `src/data/courses.js`
+30. **Course Images Update (2025)**
+    - All course images now use descriptive, topic-appropriate filenames (e.g., `ai.png`, `docker_k8s.png`, `writing.png`).
+    - Ensured all images are in a consistent 16:9 aspect ratio for a uniform UI.
+    - **Files changed:**
+        - `public/assets/img/coursesCards/` (multiple images added/renamed)
+        - `src/data/courses.js`
+31. **Course List UI Consistency (2025)**
+    - Updated the `CourseListFour.jsx` component to enforce 16:9 aspect ratio and use `object-fit: cover` for all course banners.
+    - **Files changed:**
+        - `src/components/courseList/CourseListFour.jsx`
+32. **Internationalization (2025)**
+    - Added and translated course data for English-language courses.
+    - Updated author names and descriptions to match the course language.
+    - **Files changed:**
+        - `src/data/courses.js`
 ---
 
 ## [Português]
 
 ### Visão Geral
 
-Este projeto é um template ReactJS para cursos de educação online. As seguintes alterações foram realizadas para simplificar e otimizar o template:
+Este projeto é um template ReactJS para cursos de educação online. Todas as alterações estão listadas em sequência, com os caminhos dos arquivos modificados, adicionados ou removidos, incluindo as atualizações mais recentes.
 
-### Resumo das Alterações:
+### Resumo das Alterações (Cronológico)
 
 1. **Páginas Iniciais**: Mantida apenas a página **Início 1** e removidas todas as outras páginas iniciais.
     - Caminhos removidos:
@@ -149,6 +183,9 @@ Este projeto é um template ReactJS para cursos de educação online. As seguint
     - Caminhos removidos:
         - `src/pages/eventSing.jsx`
 8. **Menu**: Ajustado o menu para usar apenas botões para navegação.
+    - Caminhos modificados:
+        - `src/components/layout/component/Menu.jsx`
+        - `src/components/layout/component/MobileMenu.jsx`
 9. **Páginas de Cursos Individuais**: Mantida apenas a página **cursos-individuais-6** e removidas todas as outras páginas de cursos individuais.
     - Caminhos removidos:
         - `src/pages/courses-single-1.jsx`
@@ -160,13 +197,23 @@ Este projeto é um template ReactJS para cursos de educação online. As seguint
     - Caminhos removidos:
         - `src/pages/instructors.jsx`
 11. **Links do Rodapé**: Atualizados os links do rodapé para refletir as páginas e seções mantidas.
+    - Caminhos modificados:
+        - `src/components/layout/component/FooterLinks.jsx`
+        - `src/data/footerLinks.js`
 12. **Menu Mobile**: Atualizado o menu mobile para exibir apenas botões com estados ativos.
+    - Caminhos modificados:
+        - `src/components/layout/component/MobileMenu.jsx`
 13. **Página 404**: Corrigido o botão "Ir para Início" para redirecionar corretamente à página inicial.
+    - Caminhos modificados:
+        - `src/components/not-found/NotFound.jsx`
 14. **Formatação de Código**: Reformatação de vários arquivos para consistência e legibilidade.
+    - Caminhos modificados: (vários arquivos, ver git log)
 15. **Componentes de Cabeçalho**: Removido o componente `HeaderExplore` do arquivo `HeaderSeven.jsx`.
     - Caminhos modificados:
         - `src/components/layout/headers/HeaderSeven.jsx`
 16. **Logo do Projeto**: Atualizado o logo do projeto para refletir a nova identidade visual. O arquivo do logo está localizado em `public/assets/img/logo.png`.
+    - Caminhos modificados:
+        - `public/assets/img/logo.png`
 17. **Seção de Depoimentos**: Atualizado o título no componente `TestimonialsOne` para "Depoimento de alunos".
     - Caminhos modificados:
         - `src/components/common/TestimonialsOne.jsx`
@@ -211,3 +258,28 @@ Este projeto é um template ReactJS para cursos de educação online. As seguint
 28. **Página Index**: Atualizados os metadados da página principal.
     - Caminhos modificados:
         - `src/pages/index.jsx`
+29. **Refatoração dos Dados dos Cursos (2025)**
+    - Removida a categoria "Fotografia" e todos os cursos de fotografia.
+    - Adicionados novos cursos de tecnologia (IA, DevOps, Segurança, Escrita, etc.).
+    - Atualizados e traduzidos títulos e descrições dos cursos; campos `languange` e `authorName` revisados.
+    - Cursos selecionados marcados como em inglês, com conteúdo traduzido.
+    - **Arquivos alterados:**
+        - `src/data/courses.js`
+30. **Padronização das Imagens dos Cursos (2025)**
+    - Todas as imagens dos cursos agora usam nomes descritivos e apropriados ao tema (ex: `ai.png`, `docker_k8s.png`, `writing.png`).
+    - Garantida a proporção 16:9 em todas as imagens para uniformidade visual.
+    - **Arquivos alterados:**
+        - `public/assets/img/coursesCards/` (várias imagens adicionadas/renomeadas)
+        - `src/data/courses.js`
+31. **Consistência Visual na Lista de Cursos (2025)**
+    - Atualizado o componente `CourseListFour.jsx` para garantir proporção 16:9 e uso de `object-fit: cover` nos banners dos cursos.
+    - **Arquivos alterados:**
+        - `src/components/courseList/CourseListFour.jsx`
+32. **Internacionalização (2025)**
+    - Adicionados e traduzidos dados de cursos em inglês.
+    - Atualizados nomes de autores e descrições conforme o idioma do curso.
+    - **Arquivos alterados:**
+        - `src/data/courses.js`
+---
+
+**Last update:** May 31, 2025
