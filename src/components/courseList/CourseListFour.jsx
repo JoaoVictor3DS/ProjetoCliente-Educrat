@@ -7,7 +7,6 @@ import {
 	levels,
 	prices,
 	rating,
-	sortingOptions,
 } from "@/data/courses";
 import React, { useState, useEffect } from "react";
 import Star from "../common/Star";
@@ -901,11 +900,12 @@ export default function CourseListFour() {
 								>
 									<div className="coursesCard -type-1 ">
 										<div className="relative">
-											<div className="coursesCard__image overflow-hidden rounded-8">
+											<div className="coursesCard__image overflow-hidden rounded-8" style={{ aspectRatio: '16/9', width: '100%', height: 'auto', minHeight: '120px', background: '#f3f3f3', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 												<img
-													className="w-1/1"
+													className="w-1/1 object-cover"
 													src={elm.imageSrc}
 													alt="image"
+													style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '16/9' }}
 												/>
 												<div className="coursesCard__image_overlay rounded-8"></div>
 											</div>

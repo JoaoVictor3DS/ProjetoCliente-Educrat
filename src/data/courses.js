@@ -309,7 +309,7 @@ export const coursesData = [
 	},
 	{
 		id: 15,
-		imageSrc: "/assets/img/coursesCards/php.png",
+		imageSrc: "/assets/img/coursesCards/docker_github.png",
 		authorImageSrc: "/assets/img/general/avatar-1.png",
 		title: "DevOps: CI/CD com Docker e GitHub Actions",
 		rating: 4.7,
