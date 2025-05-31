@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { blogs } from "../../data/blog";
-
-import Pagination from "../common/Pagination";
 import { Link } from "react-router-dom";
+import PaginationTwo from "../common/PaginationTwo";
+
 export default function BlogsThree() {
+	const [pageNumber, setPageNumber] = useState(1);
+	const pageCapacity = 4;
+
+	const paginatedBlogs = blogs.slice(
+		(pageNumber - 1) * pageCapacity,
+		pageNumber * pageCapacity
+	);
+
 	return (
 		<>
 			<section className="page-header -type-1">
@@ -19,9 +27,7 @@ export default function BlogsThree() {
 
 								<div>
 									<p className="page-header__text">
-										Estamos em uma missão para oferecer
-										cursos envolventes e selecionados a um
-										preço acessível.
+										Estamos em uma missão para oferecer cursos envolventes e selecionados a um preço acessível.
 									</p>
 								</div>
 							</div>
@@ -33,7 +39,7 @@ export default function BlogsThree() {
 			<section className="layout-pt-md layout-pb-lg">
 				<div className="container">
 					<div className="row y-gap-30 justify-center">
-						{blogs.slice(0, 4).map((elm, i) => (
+						{paginatedBlogs.map((elm, i) => (
 							<div key={i} className="col-lg-10 col-md-11">
 								<div className="blogCard -type-3">
 									<div className="row y-gap-30 items-center">
@@ -50,24 +56,16 @@ export default function BlogsThree() {
 										<div className="col-lg-6">
 											<div className="blogCard__content pl-60 lg:pl-40 md:pl-0">
 												<div className="blogCard__category text-14 lh-1 text-purple-1 fw-500">
-													EDUCAÇÃO
+													{elm.category}
 												</div>
 												<h4 className="blogCard__title text-24 lh-15 text-dark-4 fw-500 mt-15">
-													<Link
-														className="linkCustom"
-														to={`/blogs/${elm.id}`}
-													>
+													<Link className="linkCustom" to={`/blogs/${elm.id}`}>
 														{elm.title}
 													</Link>
 												</h4>
-												<p className="blogCard__text mt-20">
-													{elm.desc}
-												</p>
+												<p className="blogCard__text mt-20">{elm.desc}</p>
 												<div className="blogCard__button d-inline-block mt-20">
-													<Link
-														to={`/blogs/${elm.id}`}
-														className="button -sm -purple-3 text-purple-1"
-													>
+													<Link to={`/blogs/${elm.id}`} className="button -sm -purple-3 text-purple-1">
 														Leia Mais
 													</Link>
 												</div>
@@ -81,7 +79,12 @@ export default function BlogsThree() {
 
 					<div className="row justify-center pt-60 lg:pt-40">
 						<div className="col-auto">
-							<Pagination />
+							<PaginationTwo
+								pageNumber={pageNumber}
+								setPageNumber={setPageNumber}
+								data={blogs}
+								pageCapacity={pageCapacity}
+							/>
 						</div>
 					</div>
 				</div>
