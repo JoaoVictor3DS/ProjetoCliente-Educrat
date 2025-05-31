@@ -139,6 +139,30 @@ This project is a ReactJS template for online education courses. The following c
     - Updated author names and descriptions to match the course language.
     - **Files changed:**
         - `src/data/courses.js`
+33. **Events section improvement**
+    - Added new events.
+    - Fixed compatibility between events and event pages.
+    - **Files changed:**
+        - `src/data/events.js`
+34. **Re-adding route for EventSingle**
+    - Changed router links to add the page.
+    - **Files changed:**
+        - `src/App.jsx`
+35. **Addition of new, compatible events**
+    - New records were added to the site's event set.
+    - **Files changed:**
+        - `src/data/events.js`
+36. **Blog page pagination fix**
+    - The blog page pagination was changed to behave like the course page.
+    - **Files changed:**
+        - `src/components/blogs/BlogsThree.jsx`
+37. **Events page pagination fix**
+    - Pagination style was changed and some responsiveness was implemented.
+    - **Files changed:**
+        - `src/components/events/EventsTwo.jsx`
+38. **CourseCards image size fix**
+    - **Files changed:**
+        - `src/components/homes/courseCards/CourseCard.jsx`
 ---
 
 ## [Português]
@@ -280,12 +304,35 @@ Este projeto é um template ReactJS para cursos de educação online. Todas as a
     - Atualizados nomes de autores e descrições conforme o idioma do curso.
     - **Arquivos alterados:**
         - `src/data/courses.js`
-
-33. **Aprimora seção de Eventos**
+33. **Aprimoramento da seção de Eventos**
     - Adiciona novos eventos.
     - Corrige compatibilidade entre os eventos e as páginas de eventos.
     - **Arquivos alterados:**
         - `src/data/events.js`
+
+34. **Readição de rota para EventSingle**
+    - Altera links no router para adicionar a página.
+    - **Arquivos alterados:**
+        - `src/App.jsx`
+
+35. **Adição de eventos novos, compatíveis**
+    - Novos registros foram feitos no conjunto de eventos do site.
+    - **Arquivos alterados:**
+        - `src/data/events.js`
+
+36. **Correção de paginação da página de blogs**
+    - A paginação da página foi alterada para se comportar como na página de cursos.
+    - **Arquivos alterados:**
+        - `src/components/blogs/BlogsThree.jsx`
+
+37. **Correção da paginação da página de events**
+    - Alterou-se o estilo da paginação e implementou-se alguma responsividade.
+    - **Arquivos alterados:**
+        - `src/components/events/EventsTwo.jsx`
+
+38. **Correção das imagens de  CourseCards**
+    - **Arquivos alterados:**
+        - `src/components/homes/courseCards/CourseCard.jsx`
 ---
 
 **Last update:** May 31, 2025
