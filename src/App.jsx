@@ -31,6 +31,7 @@ import DshbMessagesPage from "./pages/dashboard/dshb-messages";
 import DshbPartcipentPage from "./pages/dashboard/dshb-participants";
 import DshbQuizPage from "./pages/dashboard/dshb-quiz";
 import DshbServeyPage from "./pages/dashboard/dshb-survey";
+import EventSinglePage from "./pages/events/events";
 import EventListPage2 from "./pages/events/event-list-2";
 import EventCartPage from "./pages/cartPages/event-cart";
 import EventCheckoutPage from "./pages/cartPages/event-checkout";
@@ -157,6 +158,11 @@ function App() {
 							<Route
 								path="dshb-survey"
 								element={<DshbServeyPage />}
+							/>
+
+							<Route
+								path="/events/:id"
+								element={<EventSinglePage />}
 							/>
 
 							<Route
