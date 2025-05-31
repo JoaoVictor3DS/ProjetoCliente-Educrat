@@ -163,6 +163,11 @@ This project is a ReactJS template for online education courses. The following c
 38. **CourseCards image size fix**
     - **Files changed:**
         - `src/components/homes/courseCards/CourseCard.jsx`
+39. **Login page elements fix**
+    - Added missing elements and fixed the Sign Up text.
+    - **Files changed:**
+        - `src/pages/others/login/index.jsx`
+        - `src/components/others/LoginForm.jsx`
 ---
 
 ## [Português]
@@ -333,6 +338,12 @@ Este projeto é um template ReactJS para cursos de educação online. Todas as a
 38. **Correção das imagens de  CourseCards**
     - **Arquivos alterados:**
         - `src/components/homes/courseCards/CourseCard.jsx`
+
+39. **Correção dos elementos da página de login**
+    - Adição de elementos não utilizados e correção do texto de Sign Up 
+    - **Arquivos alterados:**
+        - `src/pages/others/login/index.jsx`
+        - `src/components/others/LoginForm.jsx`
 ---
 
 **Last update:** May 31, 2025
