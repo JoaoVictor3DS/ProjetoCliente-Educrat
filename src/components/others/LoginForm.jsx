@@ -14,10 +14,10 @@ export default function LoginForm() {
               <h3 className="text-30 lh-13">Login</h3>
               <p className="mt-10">
                 Don't have an account yet?
+              </p>
                 <Link to="/signup" className="text-purple-1">
                   Sign up for free
                 </Link>
-              </p>
 
               <form
                 className="contact-form respondForm__form row y-gap-20 pt-30"
