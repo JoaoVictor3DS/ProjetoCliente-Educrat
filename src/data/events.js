@@ -1,7 +1,7 @@
 export const events = [
 	{
 		id: 1,
-		imgSrc: "/assets/img/courses-list/1.png",
+		imgSrc: "/assets/img/blog-list/1.png",
 		title: "React Summit Brasil 2025",
 		date: "15 de agosto de 2025",
 		location: "São Paulo, Brasil",
@@ -12,7 +12,7 @@ export const events = [
 	},
 	{
 		id: 2,
-		imgSrc: "/assets/img/courses-list/2.png",
+		imgSrc: "/assets/img/blog-list/2.png",
 		title: "JavaScript Experience Week",
 		date: "22 de setembro de 2025",
 		location: "Online",
@@ -23,7 +23,7 @@ export const events = [
 	},
 	{
 		id: 3,
-		imgSrc: "/assets/img/courses-list/3.png",
+		imgSrc: "/assets/img/blog-list/3.png",
 		title: "Python para Data Science Summit",
 		date: "10 de outubro de 2025",
 		location: "Rio de Janeiro, Brasil",
@@ -34,7 +34,7 @@ export const events = [
 	},
 	{
 		id: 4,
-		imgSrc: "/assets/img/courses-list/4.png",
+		imgSrc: "/assets/img/blog-list/4.png",
 		title: "Fullstack Developer Conference",
 		date: "5 de novembro de 2025",
 		location: "Belo Horizonte, Brasil",
@@ -45,7 +45,7 @@ export const events = [
 	},
 	{
 		id: 5,
-		imgSrc: "/assets/img/courses-list/5.png",
+		imgSrc: "/assets/img/blog-list/5.png",
 		title: "Kotlin & Android Bootcamp",
 		date: "18 de julho de 2025",
 		location: "Curitiba, Brasil",
@@ -56,7 +56,7 @@ export const events = [
 	},
 	{
 		id: 6,
-		imgSrc: "/assets/img/courses-list/6.png",
+		imgSrc: "/assets/img/blog-list/6.png",
 		title: "C++ e Algoritmos Competitivos Day",
 		date: "30 de setembro de 2025",
 		location: "Online",
@@ -67,7 +67,7 @@ export const events = [
 	},
 	{
 		id: 7,
-		imgSrc: "/assets/img/courses-list/7.png",
+		imgSrc: "/assets/img/blog-list/7.png",
 		title: "Node.js & Express API Fest",
 		date: "12 de dezembro de 2025",
 		location: "Porto Alegre, Brasil",
@@ -78,7 +78,7 @@ export const events = [
 	},
 	{
 		id: 8,
-		imgSrc: "/assets/img/courses-list/8.png",
+		imgSrc: "/assets/img/blog-list/8.png",
 		title: "Docker, Kubernetes & DevOps Summit",
 		date: "3 de outubro de 2025",
 		location: "Online",
@@ -89,7 +89,7 @@ export const events = [
 	},
 	{
 		id: 9,
-		imgSrc: "/assets/img/courses-list/9.png",
+		imgSrc: "/assets/img/blog-list/9.png",
 		title: "Web Security Conference",
 		date: "25 de agosto de 2025",
 		location: "Brasília, Brasil",
@@ -100,7 +100,7 @@ export const events = [
 	},
 	{
 		id: 10,
-		imgSrc: "/assets/img/courses-list/10.png",
+		imgSrc: "/assets/img/blog-list/10.png",
 		title: "Criptografia Moderna para Devs",
 		date: "8 de setembro de 2025",
 		location: "Online",
@@ -111,7 +111,7 @@ export const events = [
 	},
 	{
 		id: 11,
-		imgSrc: "/assets/img/courses-list/11.png",
+		imgSrc: "/assets/img/blog-list/11.png",
 		title: "Pentest & Ethical Hacking Day",
 		date: "20 de outubro de 2025",
 		location: "Recife, Brasil",
@@ -122,7 +122,7 @@ export const events = [
 	},
 	{
 		id: 12,
-		imgSrc: "/assets/img/courses-list/12.png",
+		imgSrc: "/assets/img/blog-list/12.png",
 		title: "Redes de Computadores Summit",
 		date: "14 de setembro de 2025",
 		location: "Online",
@@ -133,7 +133,7 @@ export const events = [
 	},
 	{
 		id: 13,
-		imgSrc: "/assets/img/courses-list/13.png",
+		imgSrc: "/assets/img/blog-list/13.png",
 		title: "Ansible Automation Workshop",
 		date: "28 de agosto de 2025",
 		location: "Salvador, Brasil",
@@ -144,7 +144,7 @@ export const events = [
 	},
 	{
 		id: 14,
-		imgSrc: "/assets/img/courses-list/14.png",
+		imgSrc: "/assets/img/blog-list/14.png",
 		title: "UX/UI Design para Devs Experience",
 		date: "6 de novembro de 2025",
 		location: "Online",
@@ -155,7 +155,7 @@ export const events = [
 	},
 	{
 		id: 15,
-		imgSrc: "/assets/img/courses-list/15.png",
+		imgSrc: "/assets/img/blog-list/15.png",
 		title: "CSS & JavaScript Animation Day",
 		date: "19 de outubro de 2025",
 		location: "Fortaleza, Brasil",
@@ -166,7 +166,7 @@ export const events = [
 	},
 	{
 		id: 16,
-		imgSrc: "/assets/img/courses-list/16.png",
+		imgSrc: "/assets/img/blog-list/16.png",
 		title: "AI & Machine Learning Conference",
 		date: "2 de dezembro de 2025",
 		location: "Online",
@@ -177,7 +177,7 @@ export const events = [
 	},
 	{
 		id: 17,
-		imgSrc: "/assets/img/courses-list/17.png",
+		imgSrc: "/assets/img/blog-list/17.png",
 		title: "Escrita Técnica para Software Summit",
 		date: "11 de setembro de 2025",
 		location: "Online",
@@ -188,7 +188,7 @@ export const events = [
 	},
 	{
 		id: 18,
-		imgSrc: "/assets/img/courses-list/18.png",
+		imgSrc: "/assets/img/blog-list/18.png",
 		title: "Arte Digital para Games & Apps Expo",
 		date: "27 de agosto de 2025",
 		location: "São Paulo, Brasil",
@@ -199,7 +199,7 @@ export const events = [
 	},
 	{
 		id: 19,
-		imgSrc: "/assets/img/courses-list/19.png",
+		imgSrc: "/assets/img/blog-list/19.png",
 		title: "Algoritmos Avançados em Python Day",
 		date: "23 de setembro de 2025",
 		location: "Online",
@@ -210,7 +210,7 @@ export const events = [
 	},
 	{
 		id: 20,
-		imgSrc: "/assets/img/courses-list/20.png",
+		imgSrc: "/assets/img/blog-list/20.png",
 		title: "Criptografia Aplicada para Devs Workshop",
 		date: "7 de dezembro de 2025",
 		location: "Online",

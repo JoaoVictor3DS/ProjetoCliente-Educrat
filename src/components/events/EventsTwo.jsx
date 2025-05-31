@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Pagination from "../common/Pagination";
+import PaginationTwo from "../common/PaginationTwo";
 import { events, categories, findEvent, tags } from "@/data/events";
 import { Link } from "react-router-dom";
 
@@ -7,6 +7,13 @@ export default function EventsTwo() {
 	const [pageItems, setPageItems] = useState([]);
 	const [ddActive, setDdActive] = useState(false);
 	const [currentCategory, setCurrentCategory] = useState("All Categories");
+	const [pageNumber, setPageNumber] = useState(1);
+	const pageCapacity = 6;
+	const paginatedItems = pageItems.slice(
+		(pageNumber - 1) * pageCapacity,
+		pageNumber * pageCapacity
+	);
+
 	useEffect(() => {
 		if (currentCategory == "All Categories") {
 			setPageItems(events);
@@ -16,6 +23,7 @@ export default function EventsTwo() {
 			);
 			setPageItems(filtered);
 		}
+		setPageNumber(1);
 	}, [currentCategory]);
 	return (
 		<>
@@ -270,7 +278,7 @@ export default function EventsTwo() {
 							</div>
 
 							<div className="row y-gap-30">
-								{pageItems.map((elm, i) => (
+								{paginatedItems.map((elm, i) => (
 									<div key={i} className="col-lg-4 col-md-6">
 										<div className="eventCard -type-2 bg-white">
 											<div className="eventCard__img">
@@ -313,7 +321,12 @@ export default function EventsTwo() {
 
 							<div className="row justify-center pt-60 lg:pt-40">
 								<div className="col-auto">
-									<Pagination />
+									<PaginationTwo
+										pageNumber={pageNumber}
+										setPageNumber={setPageNumber}
+										data={pageItems}
+										pageCapacity={pageCapacity}
+									/>
 								</div>
 							</div>
 						</div>
