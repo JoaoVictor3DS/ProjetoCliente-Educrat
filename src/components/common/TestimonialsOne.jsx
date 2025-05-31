@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore from "swiper";
-// import 'swiper/swiper.min.css';
 import { testimonials } from "../../data/tesimonials";
 import { counters } from "../../data/count";
-// SwiperCore.use([Pagination]);
 
 export default function TestimonialsOne() {
 	const [showSlider, setShowSlider] = useState(false);

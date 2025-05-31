@@ -17,7 +17,7 @@ export default function CourceCard({ data, index }) {
 					<div className="relative">
 						<div className="coursesCard__image overflow-hidden rounded-8">
 							<img
-								style={{ height: "100%", width: "100%" }}
+								style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '16/9' }}
 								className="w-1/1"
 								src={data.imageSrc}
 								alt="image"
